@@ -9,9 +9,13 @@
   src: url("../fonts/Roboto-Bold.ttf") format('truetype')
 }
 
+
+
 body{
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
+
 
 .grassetto {
     font-weight: bold;
