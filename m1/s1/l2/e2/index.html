@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sviluppo di una pagina web - blog epicode</title>
+    </head>
+
+
+    <body>
+
+        <header>
+            <img src="logo.svg" height="35"><br>
+            <h2>Epicode - Il blog dei developers</h2><hr>
+
+            <a href="menu.html"><h3>Menù</h3></a>
+            <a href="Articoli.html"><h3>Articoli</h3></a>
+            <a href="job.html"><h3>Job</h3></a><hr>
+        </header>
+
+        <main>
+
+            <h1>Come creare un template per i post</h1><br>
+                <cite>Di mario rossi - pubblicato il 25-10-2020</cite><br>
+                <p>La prima cosa da fare è suddividere în blocchi logici la pagina, identificando le parti comuni da applicare a tutte le
+                pagine</p>
+                <p> <strong> Le varie aree saranno quindi suddivise in:</strong></p>
+                    <dl>
+                        <li>Contenuti di intestazione del tag &lt; header &gt;.</li>
+                        <li>Contenuti centrali variabili del tag &lt; main &gt;. (corpo principale)</li>
+                        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt; footer &gt;. </li>
+                        <li>Formattazione del codice.</li>
+                    </dl>
+                <p> <strong> ll testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS</strong>. Perciò i passi
+                    saranno:</p>
+                    <dl>
+                        <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato.</li>
+                        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso.</li>
+                        <li>Applicare gli stili CSS.</li>
+                        <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</li>
+                    </dl>
+                        <br><hr>
+
+            <table>
+                <style>
+                    table td, table th {
+                        width: 150px;
+                    }
+                    table td, table th{
+                        border: 1px solid black
+                    }
+                    </style>
+
+                <caption> Diffusione dei css </caption>
+                <thead>
+
+                    <tr>
+                        <th>Anno</th><th>% di utilizzo</th><th>Supporto browsers</th>
+                    </tr>
+
+                    <tr>
+                        <th>2000</th><th>20%</th><th>17%</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th>2002</th><th>35%</th><th>22%</th>
+                    </tr>
+                    <tr>
+                        <th>2004</th><th>45%</th><th>42%</th>
+                    </tr>
+                    <tr>
+                        <th>2008</th><th>80%</th><th>51%</th>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <th>2012</th><th>100%</th><th>76%</th>
+                    </tr>
+                </tfoot>
+
+            </table><hr><br>
+
+            <p>Un test di validazione potrà essere fatto tramite il tool online <a href=""></a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo taggiunto il nostro obbiettivo ed essere stati sei veri developers come loro:</p>
+
+            <a href=https://www.youtube.com/watch?v=Q4iH7Yk0eT8">8 COSE da SAPERE prima di diventare un WEB DEVELOPER</a>
+
+                <p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra news letter:</p>
+
+            <form>
+
+                <input type="text" placeholder="inserisci l'email">
+                     <button type="submit">Iscriviti!</button>
+
+            </form>
+         </main>
+            <hr><br>
+        
+        <footer>
+            <h4> <ins>Articoli correlati</ins></h4>
+            <p>validazione del codice HTML</p>
+            <p>Categoria: develop</p>
+            <p>Data 18-9-2020</p>
+
+            <p>Testata online di Mario Rossi, Registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233</p>
+            <p>info@epicode.school <a href="info@epicode.school">Link Email</a></p>
+        
+         </footer>
+
+
+    </body>
+
+</html>

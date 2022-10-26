@@ -1,0 +1,37 @@
+/*
+anatomia blocco css
+selettore{
+    regole:valore;
+    regole:valore;
+    regole:valore;
+    regole:valore;
+    regole:valore;
+}
+*/
+/* è il comando per il commento*/
+div{
+    color: red;
+}
+span{
+    color: blue;
+}
+.sfondoblutestorosso{
+    color: green;
+    color: beige;
+}
+
+div{
+    color: black;
+}
+
+#principale{
+    font-weight: bold;
+}
+
+.giorgio{
+    color: blueviolet;
+}
+
+div div, div span{
+    background-color: bisque;
+}
