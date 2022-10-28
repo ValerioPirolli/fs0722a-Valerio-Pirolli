@@ -1,0 +1,143 @@
+:root{
+    font-size:18px
+}
+
+#logoiniziale{
+
+    width: 100%;
+    background-color: black;
+    vertical-align: middle;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+    
+}
+
+#primoq{
+
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.titoloiniziale{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-left: 20% ;
+    padding-right: 20% ;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testobase{
+    color: #393d41 ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.65;
+
+}
+
+#bottone{
+    background-color: #dd624a;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: none;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.testoh3{ 
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5vh;
+
+
+}
+
+#bloccocerchio{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    clip-path: circle();
+    margin-top: 10vh;
+}
+
+#bloccorosso{
+    background-color: #db4629;
+    padding: 5%;
+}
+
+.testobianco{
+
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.65;
+}
+
+.testobiancob{
+
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+
+.bloccotesto{
+    width: 90%;
+    border: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.195);
+    padding-bottom: 5%;
+
+}
+
+#bloccof{
+    background-color: #25a2c3;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#testof{
+    padding: 10%;
+}
+
+.aa{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.aa>a{
+    color: #ffffff;
+}
