@@ -47,15 +47,17 @@
 
 #bottone{
     background-color: #dd624a;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border-radius: 5px;
     box-shadow: none;
     border-style: none;
     margin-top: 2rem;
     color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .testoh3{ 
