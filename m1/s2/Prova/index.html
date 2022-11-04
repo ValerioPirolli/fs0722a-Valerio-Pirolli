@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="calcolatrice">
+
+        <table id="tabella">
+            <caption id="calcolatrice">CALC0LATR1CE</caption>
+            <tr>    
+                <th  colspan="5"><input type="text" id="display" onkeydown="saveCommand(event)" readonly></th>
+            </tr>
+            <tr>
+                <td id="c" id="clear" onclick="clearInput(this)">C</td>
+                <td class="numer" data-simbbolo="7" onclick="aggiungiCifra(this)">7</td>
+                <td class="numer" data-simbbolo="8" onclick="aggiungiCifra(this)">8</td>
+                <td class="numer" data-simbbolo="9" onclick="aggiungiCifra(this)">9</td>
+                <td class="funzioni" onclick="rimuoviCifra(this)"> ← </td>
+            </tr>
+            <tr>
+                <td class="funzioni" onclick="v(this)">✓²</td>
+                <td class="numer" data-simbbolo="4" onclick="aggiungiCifra(this)">4</td>
+                <td class="numer" data-simbbolo="5" onclick="aggiungiCifra(this)">5</td>
+                <td class="numer" data-simbbolo="6" onclick="aggiungiCifra(this)">6</td>
+                <td class="funzioni" data-simbbolo="+" onclick="aggiungiCifra(this)">+</td>
+            </tr>
+            <tr>
+                <td class="funzioni" onclick="quadra(this)">X²</td>
+                <td class="numer" data-simbbolo="1" onclick="aggiungiCifra(this)">1</td>
+                <td class="numer" data-simbbolo="2" onclick="aggiungiCifra(this)">2</td>
+                <td class="numer" data-simbbolo="3" onclick="aggiungiCifra(this)">3</td>
+                <td class="funzioni" data-simbbolo="-" onclick="aggiungiCifra(this)">−</td>
+            </tr>
+            <tr>
+                <td class="funzioni" onclick="pi(this)">π</td>
+                <td class="funzioni" data-simbbolo="/" onclick="aggiungiCifra(this)">÷</td>
+                <td class="numer" data-simbbolo="0" onclick="aggiungiCifra(this)">0</td>
+                <td class="funzioni" data-simbbolo="*" onclick="aggiungiCifra(this)">×</td>
+                <td class="funzioni" onclick="tot ()">=</td>
+            </tr>
+            
+        </table>
+        
+    </div>
+
+
+
+    <script src="java/script.js"></script>
+</body>
+</html>

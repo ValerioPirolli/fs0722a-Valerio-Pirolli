@@ -1,0 +1,43 @@
+:root{
+    font-size: 18px;
+}
+
+#tabella{
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+    border: 1px solid black
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#bottone{
+    background-color: blue;
+}
+
+#display{
+    text-align: right;
+}
+
+.funzioni{
+    background-color: rgb(159, 159, 159);
+}
+
+.numer{
+    background-color: rgb(200, 200, 200);
+}
+
+#c{
+    background-color: red;
+}
