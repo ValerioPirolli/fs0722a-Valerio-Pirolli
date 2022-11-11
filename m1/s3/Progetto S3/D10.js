@@ -158,70 +158,64 @@ whatDayIsIt()
   Deve invocare la precedente funzione dice() il numero di volte specificato nel parametro, e deve tornare un oggetto contenente una proprietà "sum":
   il suo valore deve rappresentare il totale di tutti i valori estratti con le invocazioni di dice().
   L'oggetto ritornato deve anche contenere una proprietà "values", contenente un array con tutti i valori estratti dalle invocazioni di dice().
-
   Example:
   rollTheDices(3) => ritorna {
       sum: 10
       values: [3, 3, 4]
-  }
-                                        //non funziona
-function rollTheDices(n) { 
-  let objReturned = {
-    sum: 0,
-    values: []
-  };
+  */
 
-  for (let i = 0; i < n; i++) { 
-    let res = dice();
-    objReturned.sum += res;
-    objReturned.values[objReturned.values.length] = res;
+
+function rollTheDices(numero) { 
+  let _arr = [];
+  for (let i = 0; i < numero; i++){         //faccio un for per ciclare i risulati di 'dice'
+    _arr.push(dice())                       //uso la funzione push per creare un array con le tre valute
   }
-  return objReturned;
+  
+  console.log(_arr)                           
+  let numeroDice = _arr.reduce((p , c) => p + c)    //uso la funzione reduce
+  console.log(numeroDice)
+
+  let obj ={                                //metto le due variabili ottenute dentro un oggetto
+    sum: numeroDice,
+    values: _arr,
 }
-rollTheDices(3)*/
+    console.log(obj)
+  
+
+  }  rollTheDices(3)
+
+
 
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
+*/
 
-                                          //non funziona
-function howManyDays(data){
 
-  const date = new Date();
+let data12 = new Date('sep 11, 2001')
 
-let giorno = date.getDate();
-let mese = date.getMonth() + 1;
-let anno = date.getFullYear();
-let giornoCorrente = `${anno},${mese},${giorno}`;
-console.log(giornoCorrente);
-var previous = data;
-console.log(previous)
-return Math.ceil((giornoCorrente - previous + 1) / 86400000);
+function howManyDays(data12){
+
+  const data = new Date();
+
+let giorno = data.getTime();
+
+let dataScelta = data12.getTime();
+
+let differnza = giorno - dataScelta
+
+let giorniTrascorsi = Math.floor(differnza / 8.64e+7)
+
+return giorniTrascorsi
+
 }
-//Date(year,month,day,hours,minutes,seconds,ms)
-howManyDays(2001,08,11);*/
+
+console.log(howManyDays(data12))
 
 
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 
 
-function compare(_date2)    //non funziona
-{  
-  const _date = new Date();                                      //l'unico modo che sono riuscito a trovare per compare due date è:
-  let _giorno = _date.getDate();                                  //prendere la data attuale, prendere solo giorno mese e anno
-  let _mese = _date.getMonth() + 1;                               //metto +1 nei mesi perchè su js i mesi si calcolano da 0 a 11 cosi facendo si contanto da 1 a 12
-  let _anno = _date.getFullYear();
-  let _date1 = `${_mese}-${_giorno}-${_anno}`;                      //scriverlo in un linea di codice
-  console.log(_date1)
-  
-  if (_date1 == _date2) {                                          //ho fatto varie comparazioni perchè '==' e '===' con le date non funzionano
-    console.log("true");
-  } else 
-  console.log('false')
-}
-//                mm/gg/yyyy
-let _d = new Date("11-10-2022")  
-compare(_d); */   
 
 
 // Arrays & Oggetti
@@ -252,21 +246,23 @@ tdInventat()
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
+
 function ciia(){
+
   let tdCiclo = document.querySelectorAll('td');      //prendo tutti i 'td' 
-  console.log(tdCiclo);
   for(let i of tdCiclo){                              //faccio un ciclo della variabile creata prima con i td all'interno
     console.log(i)                                    //mostro i td ottenuti nella console
   }
 }
 ciia();
+
+
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 
 const changeBackgroundUrls = function () {
   const linKambio = document.querySelectorAll('a');   //prendo tutti i link nel sito con 'a'         
-  console.log(linKambio);
   for(let i of linKambio){                            //faccio il ciclo come prima
       i.style.backgroundColor = 'red';                //metto lo sfondo rosso per tutti i link
   }
@@ -467,7 +463,7 @@ const movies = [
   Scrivi una funzione chiamata "deleteProp" che riceve un oggetto e una stringa come parametri; deve ritornare l'oggetto fornito dopo aver eliminato
   in esso la proprietà chiamata come la stringa passata come secondo parametro.*/
 
-  macchina = {
+  let macchina = {
     ruote: 4,
     marca: "audi",
     anno: 2016,
@@ -487,6 +483,11 @@ const deleteProp = (oggetto, stringa) => {
 deleteProp(macchina, 4);
 
 
+function deleteProp2(oggetto, stringa){                   //ne ho fatti due diversi perchè non avevo capito bene la traccia
+  delete oggetto[stringa]                                 //uso la proprietà delete
+  console.log(oggetto)
+}
+deleteProp2(macchina, 'ruote');
 /* ESERCIZIO 12
   Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
 */
@@ -505,6 +506,21 @@ function filmPiuRecente(arr) {
 }
 filmPiuRecente(movies);
 
+function newWestMovie(){ //
+  let anno2=0
+for (let i=0;i<movies.length;i++){          //nell'esercizio prima ho usato l'eval e non mi piaceva quindi ho utilizzato questo metodo 
+  let anno1=movies[i].Year                 
+if(anno1>anno2){
+anno2=anno1
+  } 
+}
+
+let film = movies.find(movies=>movies.Year==anno2)
+return film
+
+}
+
+console.log(newWestMovie())
 /* ESERCIZIO 13
   Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.z 
 */
@@ -555,7 +571,7 @@ console.log(arr)
   for (let p = 0; p < arr.length; p++) {
     sum += movies[p].Year
   }
-  console.log( + sum ); 
+  console.log( + sum );
 }
 sumAllTheYears(movies)
 
