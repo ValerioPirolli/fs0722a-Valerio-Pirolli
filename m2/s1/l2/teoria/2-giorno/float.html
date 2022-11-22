@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        body {margin: 0px;}
+        .container { width: 1200px; margin:0 auto; border:1px solid #000;}
+        header {background-color: navy; text-align: center;}
+        header h1 {color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin: 0; }
+        nav {background-color: blueviolet; height: 30px;}
+        nav ul {margin: 0; padding: 0; list-style-type: none;}
+        nav li {float:left; border-right:1px solid #fff; padding: 0 90px;}
+        /* float rompe la caratteristica di display:block e fa fluttuare gli elementi a sx e a dx 
+        i tag a cui assegnamo float NON contribuiscono all'altezza del contenitore! */
+        nav li#ultimo {border-right:none}
+        nav a {color: white; text-decoration: none; line-height: 30px; display: block;}
+        nav a:hover {background-color: white; color: blueviolet;}
+        /* main */
+        main { padding: 15px;}
+        section {margin-left: 300px; margin-right: 300px;}
+        aside {float: left; width: 300px;}
+        #right {float: right; width: 300px;} /* gli elementi che hanno float precedono SEMPRE gli elementi liberi */
+        article img {width: 100px;}
+        article p {text-align: justify;}
+        .sx {float:left}
+        .dx {float: right;}
+        /* footer */
+        footer { background-color: blueviolet; color: #fff; text-align: center; clear: both;}
+        footer p {margin:0}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- intestazione -->
+        <header>
+            <h1>Epicode</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Typescript</a></li>
+                    <li id="ultimo"><a href="#">Angular</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- corpo centrale -->
+        <main>
+            <aside>
+                <img src="images/mango.png" alt=""><br>
+                <img src="images/pineapple.png" alt="">
+            </aside>
+            <aside id="right">
+                <img src="images/mango.png" alt=""><br>
+                <img src="images/pineapple.png" alt="">
+            </aside>
+            <section>
+                <article>
+                    <img src="images/mango.png" alt="" class="sx"><br>
+                    <p>Croissant tootsie roll dragée chupa chups jelly cotton candy jujubes cheesecake jujubes. Caramels tootsie roll oat cake cheesecake gummies ice cream wafer bear claw. Liquorice chocolate bar tiramisu oat cake jelly-o. Dessert bear claw jelly tiramisu macaroon. Chocolate dragée bonbon oat cake candy ice cream liquorice croissant oat cake. Gingerbread croissant pastry chocolate bar carrot cake pudding sugar plum cookie cheesecake. Gingerbread tart topping carrot cake gingerbread lemon drops brownie chocolate bar jelly.</p>
+                </article>
+                <article>
+                    <img src="images/mango.png" alt="" class="dx"><br>
+                    <p>Candy canes biscuit toffee cookie cotton candy jelly. Chocolate cake bonbon carrot cake sesame snaps gingerbread pie. Dragée carrot cake croissant ice cream marshmallow dessert pie. Donut sweet roll tart gingerbread sweet roll pastry croissant ice cream chocolate. Dessert fruitcake apple pie biscuit gummies lollipop. Oat cake lemon drops cheesecake gummies jelly beans lollipop. Chocolate sugar plum fruitcake tiramisu topping tootsie roll dragée. Dragée gummi bears tiramisu donut tootsie roll gingerbread icing pie.</p>                    
+            </article>
+            <article>
+                <img src="images/mango.png" alt="" class="sx"><br>
+                <p>Candy sweet carrot cake cake bear claw. Donut fruitcake pie gummi bears powder candy shortbread cake bear claw. Icing powder candy canes topping bonbon liquorice croissant lemon drops. Lollipop cake gummies cake dessert chocolate bar toffee. Sugar plum sweet tootsie roll brownie donut cupcake toffee. Biscuit chocolate ice cream bonbon donut. Candy canes chocolate bar sweet muffin croissant soufflé marshmallow macaroon pastry.</p>
+            </article>
+            <article>
+                <img src="images/mango.png" alt="" class="dx"><br>
+                <p>Croissant tootsie roll dragée chupa chups jelly cotton candy jujubes cheesecake jujubes. Caramels tootsie roll oat cake cheesecake gummies ice cream wafer bear claw. Liquorice chocolate bar tiramisu oat cake jelly-o. Dessert bear claw jelly tiramisu macaroon. Chocolate dragée bonbon oat cake candy ice cream liquorice croissant oat cake. Gingerbread croissant pastry chocolate bar carrot cake pudding sugar plum cookie cheesecake. Gingerbread tart topping carrot cake gingerbread lemon drops brownie chocolate bar jelly.</p>
+            </article>  
+            <article>
+                <img src="images/mango.png" alt="" class="sx"><br>
+                <p>Candy canes biscuit toffee cookie cotton candy jelly. Chocolate cake bonbon carrot cake sesame snaps gingerbread pie. Dragée carrot cake croissant ice cream marshmallow dessert pie. Donut sweet roll tart gingerbread sweet roll pastry croissant ice cream chocolate. Dessert fruitcake apple pie biscuit gummies lollipop. Oat cake lemon drops cheesecake gummies jelly beans lollipop. Chocolate sugar plum fruitcake tiramisu topping tootsie roll dragée. Dragée gummi bears tiramisu donut tootsie roll gingerbread icing pie.</p>                 
+            </article>   
+            <article>
+                <img src="images/mango.png" alt="" class="dx"><br>
+                <p>Candy sweet carrot cake cake bear claw. Donut fruitcake pie gummi bears powder candy shortbread cake bear claw. Icing powder candy canes topping bonbon liquorice croissant lemon drops. Lollipop cake gummies cake dessert chocolate bar toffee. Sugar plum sweet tootsie roll brownie donut cupcake toffee. Biscuit chocolate ice cream bonbon donut. Candy canes chocolate bar sweet muffin croissant soufflé marshmallow macaroon pastry.</p>
+            </article>
+            </section>
+
+        </main>
+        <footer><p>footer</p></footer>
+    </div>
+</body>
+</html>

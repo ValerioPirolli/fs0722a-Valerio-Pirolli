@@ -1,0 +1,17 @@
+body{
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: 1px solid black;
+	width: 90%;
+	margin: auto;
+}
+#immagine1, #immagine3{
+	float: left;
+}
+#immagine2{
+	float: right;
+}
+img{
+	margin: 5px;
+	height: 80px;
+}

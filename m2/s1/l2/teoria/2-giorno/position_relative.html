@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position relative</title>
+    <style>
+        div.relative {
+            position: relative;
+            border: 3px solid #f00;
+            left:30px;  /* sposto tutto il mio div di 30px a sx rispetto alla sua posizione normale */
+            top: 30px;  /* settando le proprietà top, right, bottom, left a un div posizionato relativamente ci sarà uno spostamento
+            dalla sua posizione normale */
+        }
+    </style>
+</head>
+<body>
+    <h2>Position relative</h2>
+    <p>Un elemento con position relative è posizionato relativamente alla sua posizione normale</p>
+    <div class="relative">
+        Questo div ha position:relative
+    </div>
+</body>
+</html>
