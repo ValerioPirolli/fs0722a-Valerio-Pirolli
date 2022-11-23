@@ -1,0 +1,108 @@
+body {
+	background-color: white
+	font-family: sans-serif;
+	color: #742305;
+}
+header div{
+	background-color: #ffdf7f;
+	width: 40%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 2em;
+	margin: 5%;
+	font-weight: 600;
+	padding-bottom: 1rem;
+	padding-top: 1rem; 
+}
+header{
+	background: #fef7e2 ;
+	border-radius: 4.5rem;
+}
+header div > img{
+	height: 1em;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	
+}
+#div-con-immagine{
+	width: 100%;
+	font-size: 30px;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+@media screen and (min-width: 768px){
+	header div{
+		width: auto;
+	}
+	nav{
+		flex-wrap: nowrap;
+	}
+}
+main h1{
+	text-align: center;
+	margin-top: 2rem;
+}
+article{
+	margin: auto;
+}
+.card{
+	background: #fef7e2 ;
+	width: 300px;
+	margin: auto;
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	border-radius: 3rem;
+
+}
+.div-flexato{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+button{
+	background-color: #ffdf7f;
+	border: 0 ;
+	color: black;
+	padding: 10px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 2em;
+}
+.bold{
+	font-weight: bold;
+}
+.prezzo{
+	flex: 1;
+}
+.testo{
+	text-align: center;
+	flex: 2;
+	margin: 0%;
+}
+#carte-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.immagine-iniziale{
+	border-top-left-radius:	3rem;
+	border-top-right-radius: 3rem;
+	width: 100%;}
+#immagine-finale{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+#testo-finale{
+	padding: 5%;
+	padding-bottom: 0;
+	text-align:start;
+}
+#carta-finale{
+	width: 90%;
+}

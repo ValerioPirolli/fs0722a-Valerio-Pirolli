@@ -1,0 +1,153 @@
+body{
+	background-color: #252525;
+	color: whitesmoke;
+}
+nav{
+	background-color: black;
+	display: flex;
+	color: #bbd2c5;
+	border-radius: 3px;
+	padding: 1em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	display: flex;
+	flex: 3;
+}
+nav li{
+	margin-right: 1em;
+}
+nav form{
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+nav input{
+	border-radius: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	flex: 1;
+}
+
+nav button{
+	background-color: red;
+	padding: 0 1em;
+	border-radius: 1em;
+}
+@media screen and (max-width: 575px){
+	nav {
+		flex-direction: column;
+	}
+	nav ul{
+		/*flex-direction: column;
+		margin-left: 0;*/
+		margin-bottom: 1em;
+	}
+}
+#main{
+	margin: auto;
+	margin-top: 100px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	font-size: larger;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#box1{
+	background: red;
+	border: 1px solid black;
+	-webkit-order: 3;
+}
+#box2{
+	background: green;
+	border: 1px solid black;
+	-webkit-order: 2;
+}
+#box3{
+	background: blue;
+	border: 1px solid black;
+	-webkit-order: 1;
+}
+#box1 ,#box2 , #box3
+{
+	padding: 20px;
+}
+@media screen and (max-width: 575px){
+	.container{
+		font-size: small;
+	}
+	#box1 ,#box2 , #box3
+	{
+		padding: 10px;
+	}
+	
+}
+/*#flex-di-foto{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.carta{
+	flex: 0 0 100px;
+	margin: 10px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 6px wheat;
+	background: lightgray;
+}
+.carta .testi {
+	padding: 0 20px 20px;
+}
+.carta .testi > button{
+	background: grey;
+	border: 0 ;
+	color: black;
+	padding: 10px;
+	width: 100%;
+}
+@media screen and (max-width: 575px){
+	.carta{
+		flex: 0 0 80px;
+	}
+}
+
+ 
+https://www.cssgridplayground.com/
+https://grid.layoutit.com/
+https://codepen.io/sirinity/pen/ONqxjG
+*/
+
+.contenitore-grid{
+	display: grid;
+	width: 500px;
+	height: 500px;
+	grid-template-columns: [primaC]10% [secondaC]15% [terzaC]auto [quartaC]15% [quintaC]10%;
+	grid-template-rows: [primaR]25% [secondaR]25% [terzaR]auto;
+	margin-bottom: 10px;
+}
+.contenitore-grid div{
+	border: 1px solid sandybrown;
+}
+/*.contenitore-grid2 div{
+	display: grid;
+	grid-template-columns: 15% repeat(3,25% [col-start]) 10%;
+	grid-template-rows: 25% 25% auto;
+	margin-bottom: 10px;
+}
+.contenitore-grid2 div{
+	border: 1px solid sandybrown;
+}*/
+main div{
+	border: 1px solid rgb(101, 96, 244);
+}
+
