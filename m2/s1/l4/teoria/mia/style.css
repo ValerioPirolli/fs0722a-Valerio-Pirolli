@@ -1,0 +1,206 @@
+body {
+	background-color: #e5e7eb;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: antiquewhite;
+	background: #252525;
+	font-size: large;
+}
+
+div.a {
+	width: 150px;
+	height: 80px;
+	background-color: yellow;
+	transform: rotate(45deg);
+	color: #252525;
+}
+
+div.b {
+	width: 150px;
+	height: 80px;
+	background-color: yellow;
+	transform: skew(25deg, 30deg);
+	color: #252525;
+}
+
+div.c {
+	width: 150px;
+	height: 80px;
+	background-color: yellow;
+	transform: scale(0.5, 1.5);
+	color: #252525;
+}
+div.box {
+	width: 150px;
+	height: 80px;
+	background-color: yellow;
+	transform: rotate(45deg) scale(0.5, 1.5);
+	color: #252525;
+	margin-bottom: 50px;
+}
+div.d{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 5s, height 5s, border-radius 5s;
+	transition-delay: 1s;
+}
+div.d:hover{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#div-div div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 5s;
+	border: 1px solid #e5e7eb;
+}
+#div-div div:hover{
+	width: 600px;
+}
+#1{
+	transition-timing-function: linear;
+}
+#2{
+	transition-timing-function: ease;
+}
+#3{
+	transition-timing-function: ease-in;
+}
+#4{
+	transition-timing-function: ease-out;
+}
+#5{
+	transition-timing-function: ease-in-out;
+}
+#transition{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition-property: width;
+	transition-duration: 6s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 1s;
+}
+#transition:hover{
+	width: 500px;
+}
+#box2{
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: #e5e7eb;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+#box2:hover {
+	background-color: #252525;
+}
+#tranform-origin{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	padding: 10px;
+	border: 1px solid white;
+}
+#tranform-origin div{
+	position: absolute;
+	padding: 50px;
+	border: 1px solid white;
+	background-color: #e5e7eb;
+	transform: rotate(45deg);
+	transform-origin: bottom left;
+}
+#gira-gira{
+
+	width: 200px;
+	height: 100px;
+	background: coral;
+	font-size: small;
+	animation: mymove linear 5s infinite;
+}
+@keyframes mymove{
+	50% {transform: rotate(180deg);}
+}
+#box-prova{
+	margin: 20px auto;
+	padding: 5px;
+	width: 400px;
+	background-color: #999;
+	border: 1px solid #438420;
+}
+#box-prova h1{
+	margin: 0;
+	padding: 5px;
+	animation-name: animazione_testo_2;
+	animation-delay: 1s;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+
+
+}
+@-webkit-keyframes 'animazione_testo_1'{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes 'animazione_testo_2'{
+	0%{transform:translate(0,0);}
+	100%{transform:translate(180px,0);}
+}
+#box-animazioni{
+	width: 520px;
+	border: 1px solid white;
+	padding: 5px;
+}
+.boxes{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 1px solid white;
+}
+#box_1{
+	animation-name: animazione_boxes;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+#box_2{
+	animation-name: animazione_boxes;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+#box_3{
+	animation-name: animazione_boxes;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+#box_4{
+	animation-name: animazione_boxes;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+}
+#box_5{
+	animation-name: animazione_boxes;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+}
+@-webkit-keyframes 'animazione_boxes'{
+	0%{transform:translate(0,0);}
+	100%{transform:translate(400px,0) rotate(90deg) ; border-radius: 50%;}
+}
+

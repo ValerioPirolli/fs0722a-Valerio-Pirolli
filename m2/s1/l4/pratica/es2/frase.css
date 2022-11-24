@@ -1,0 +1,61 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+main{
+    display: flex;
+    justify-content: center;
+}
+#testoAlternato{
+    width: 650px;
+    border: 2px solid black;
+    padding: 2rem;
+    margin-top: 200px;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parole {
+    text-indent: 10px; 
+}
+.parole i{
+    position: absolute;
+}
+#parola1{
+    animation-name: animazione_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+#parola2{
+    animation-name: animazione_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+#parola3{
+    animation-name: animazione_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+@-webkit-keyframes 'animazione_1'{
+    0% {opacity: 0; transform: translate(0, -30px);}
+    16% {opacity: 1; transform: translate(0, 0px);}
+    33% {opacity: 0; transform: translate(0, 30px);}
+
+}

@@ -1,0 +1,113 @@
+body{
+
+    background-color: #666666;
+}
+#carte{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.carte{
+    font-size: 2rem;
+    width: 20%;
+    text-align: center;
+    height: 15vmax;
+    margin: 2%;
+    margin-top: 10%;
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 5px 5px 10px rgba(0, 0, 0, 0.60) ;
+}
+.carte1{
+    background-color: #fafac8;
+    transform: rotate(-5deg);
+    animation-name: animazione_postit1;
+    animation-duration: 5s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 1;
+}
+.carte2{
+    background-color: #c7f6c8;
+    transform: rotate(4deg);   
+    animation-name: animazione_postit2;
+    animation-duration: 5s;
+    animation-delay: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 1;
+}
+.carte3{
+    background-color: #c5c4ee;
+    transform: rotate(-8deg);
+    animation-name: animazione_postit3;
+    animation-duration: 5s;
+    animation-delay: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    transform: rotate(-5deg);
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 1;
+}
+@-webkit-keyframes 'animazione_postit1'{
+    0%{opacity: 0;}
+	30%{transform:rotate(-10deg) ;}
+	60%{transform:rotate(10deg);}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes 'animazione_postit2'{
+    0%{opacity: 0;}
+	30%{transform:rotate(10deg) ;}
+	60%{transform:rotate(-10deg);}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes 'animazione_postit3'{
+    0%{opacity: 0;}
+	30%{transform:rotate(15deg) ;}
+	60%{transform:rotate(-5deg);}
+	100%{opacity: 1;}
+}
+#carta1:hover{
+    transform: scale(1.3);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta2:hover{
+    transform: scale(1.3);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta3:hover{
+    transform: scale(1.6);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta4:hover{
+    transform: scale(1.5);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta5:hover{
+    transform: scale(1.3);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta6:hover{
+    transform: scale(1.6);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta7:hover{
+    transform: scale(1.3);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
+#carta8:hover{
+    transform: scale(1.5);
+    box-shadow: inset 0px -40px 20px rgba(0, 0, 0, 0.20), 15px 15px 10px rgba(0, 0, 0, 0.60);
+    z-index: 2;
+}
