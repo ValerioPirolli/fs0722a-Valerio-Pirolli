@@ -1,0 +1,64 @@
+@import '_base';
+@import '_variabili';
+@import '_bottone';
+
+body {
+    background-color: $colore-sfondo;
+
+    nav {
+        background-color: $colore-nav;
+    }
+
+    #nav-top {
+        font-size: $size-nav;
+        color: $colore-testo;
+        padding: 3%;
+        display: flex;
+
+        li {
+            list-style: $no-decorazioni;
+            margin-right: 1rem;
+
+            &:hover {
+                color: blue;
+                cursor: pointer;
+            }
+        }
+
+        div {
+            flex: 1;
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    #flex {
+        display: flex;
+        padding: 5%;
+
+        #flexati1 {
+            flex: 3;
+
+            h1 {
+                font-size: $size-titoli;
+                color: $colore-titoli;
+            }
+
+            p {
+                color: $colore-testo;
+                font-size: $size-titoletti;
+            }
+        }
+
+        #flexati2 {
+            flex: 2;
+
+            img {
+                width: $p100;
+            }
+        }
+    }
+}
