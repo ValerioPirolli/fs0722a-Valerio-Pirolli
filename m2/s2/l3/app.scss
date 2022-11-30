@@ -1,0 +1,47 @@
+nav {
+    display: block;
+    ul{
+        display: inline;
+        background: yellow;
+        border: 1px solid #000;
+    }
+}
+#maino{
+    p{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 1.2em;
+        padding-left: 10px;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+    }
+}
+
+#maino2{
+    background-color: red;
+    div{
+        color: blue;
+        .rosso{
+            color: green;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.esempio{
+    background-color: green;
+    h1{
+        color:grey;
+        .titolo{
+            font-size: 52px;
+        }
+        .bottone{
+            background-color: black;
+        }
+    }
+}

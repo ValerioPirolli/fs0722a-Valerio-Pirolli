@@ -1,0 +1,60 @@
+body button {
+  background-color: aqua;
+  padding: 2%;
+  border: 1px white solid;
+  border-radius: 99em;
+}
+body button:hover {
+  background: whitesmoke;
+  box-shadow: 0 0 50px aqua;
+  border-radius: 20%;
+}
+
+body {
+  background-color: rgb(6, 3, 30);
+}
+body nav {
+  background-color: #252525;
+}
+body #nav-top {
+  font-size: 1.5em;
+  color: whitesmoke;
+  padding: 3%;
+  display: flex;
+}
+body #nav-top li {
+  list-style: none;
+  margin-right: 1rem;
+}
+body #nav-top li:hover {
+  color: blue;
+  cursor: pointer;
+}
+body #nav-top div {
+  flex: 1;
+}
+body #nav-top ul {
+  display: flex;
+  justify-content: flex-end;
+}
+body #flex {
+  display: flex;
+  padding: 5%;
+}
+body #flex #flexati1 {
+  flex: 3;
+}
+body #flex #flexati1 h1 {
+  font-size: 3em;
+  color: lightblue;
+}
+body #flex #flexati1 p {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+body #flex #flexati2 {
+  flex: 2;
+}
+body #flex #flexati2 img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
