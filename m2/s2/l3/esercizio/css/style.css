@@ -7,7 +7,7 @@ body button {
 body button:hover {
   background: whitesmoke;
   box-shadow: 0 0 50px aqua;
-  border-radius: 20%;
+  transform: scale(1.2);
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 }
 body nav {
   background-color: #252525;
+  width: 100%;
 }
 body #nav-top {
   font-size: 1.5em;

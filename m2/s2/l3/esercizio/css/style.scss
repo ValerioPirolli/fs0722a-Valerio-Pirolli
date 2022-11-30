@@ -1,4 +1,4 @@
-@import '_base';
+
 @import '_variabili';
 @import '_bottone';
 
@@ -7,8 +7,8 @@ body {
 
     nav {
         background-color: $colore-nav;
+        width: $p100;
     }
-
     #nav-top {
         font-size: $size-nav;
         color: $colore-testo;

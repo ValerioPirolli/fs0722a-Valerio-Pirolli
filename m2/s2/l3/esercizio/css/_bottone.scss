@@ -8,7 +8,7 @@ body {
         &:hover {
             background: $colore-testo;
             box-shadow: 0 0 50px $colore-bottoni;
-            border-radius: 20%;
+            transform: scale(1.2);
         }
     }
 }
