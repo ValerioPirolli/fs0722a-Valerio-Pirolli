@@ -116,19 +116,9 @@ footer p a:hover {
   cursor: pointer;
 }
 
-body {
-  background-color: #323233;
+body .cb, body #lorem {
+  color: #323233;
 }
-body header,
-body footer {
-  background-color: #39187b;
-}
-body .p-sass {
-  color: #39187b;
-}
-body main .svg-bg {
-  color: #1c1c1c;
-}
-body main #lorem {
-  background-color: #1c1c1c;
+body .svg-bg {
+  color: #f1f1f1;
 }/*# sourceMappingURL=style.css.map */

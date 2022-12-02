@@ -5,22 +5,7 @@
 @import '_carousel.scss';
 @import '_footer.scss';
 
-
-
-
-
-
-$template: dark;
-
-
-
-
-
-
-
-
-
-
+$template: bright;
 
 @if $template ==dark {
     body {
@@ -47,7 +32,7 @@ $template: dark;
         }
     }
 }
-@else if $template == bright{
+@else if $template ==bright{
 	body{
 		.cb , #lorem{
             color: $colore-testo;
