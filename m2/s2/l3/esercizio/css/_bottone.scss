@@ -1,13 +1,13 @@
 body {
     button {
-        background-color: $colore-bottoni;
+        background-color: white;
         padding: 2%;
         border: 1px white solid;
         border-radius: 99em;
 
         &:hover {
             background: $colore-testo;
-            box-shadow: 0 0 50px $colore-bottoni;
+            box-shadow: 0 0 50px $w;
             transform: scale(1.2);
         }
     }

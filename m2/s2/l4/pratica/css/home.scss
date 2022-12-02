@@ -1,0 +1,17 @@
+@import '_variables.scss';
+@import '_navbar.scss';
+@import '_item.scss';
+@import '_main.scss';
+@import '_buttons.scss';
+
+
+body{
+    background-color: $colore-testo;
+}
+footer{
+    text-align: center;
+    color: wheat;
+    background-color: $colore-nav;
+    padding: 5%;
+}
+

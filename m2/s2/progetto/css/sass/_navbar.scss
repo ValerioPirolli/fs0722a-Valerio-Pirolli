@@ -1,0 +1,52 @@
+header {
+    background-color: $colore-nav;
+    padding: 1rem 3% 0 3%;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    nav {
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+        p {
+            flex: 1;
+        }
+
+        ul {
+
+            display: flex;
+            justify-content: center;
+
+            li {
+                list-style: $no-decorazioni;
+                margin-right: 1rem;
+
+                a {
+                    color: $colore-testonav;
+                    text-decoration: $no-decorazioni;
+
+                    &:hover {
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            ul {
+                flex: 2;
+                justify-content: flex-end;
+            }
+        }
+
+    }
+}

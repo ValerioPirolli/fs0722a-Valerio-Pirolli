@@ -1,0 +1,134 @@
+header {
+  background-color: #6b2dea;
+  padding: 1rem 3% 0 3%;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+header nav p {
+  flex: 1;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  list-style: none;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: #e63f57;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  header nav {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  header nav ul {
+    flex: 2;
+    justify-content: flex-end;
+  }
+}
+
+main .p-sass {
+  padding: 30px 5% 25% 5%;
+  background-image: url("../../img/pexels-aleksandar-pasaric-325185.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+main .p-sass h1 {
+  font-size: 2.5em;
+}
+main .cb {
+  color: whitesmoke;
+}
+main h2 {
+  text-align: center;
+}
+main .svg-bg {
+  fill: #f5f5f5;
+}
+
+main #lorem {
+  color: antiquewhite;
+  background-color: #f1f1f1;
+}
+main #lorem svg {
+  scale: 2;
+  margin: 2em;
+}
+
+#carousel-sass {
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+#carousel-sass .img-sass-carousel {
+  overflow: hidden;
+  border-radius: 99rem;
+  border: 1px solid black;
+  width: 2.5rem;
+  margin: auto;
+}
+
+footer {
+  margin-top: 3vh;
+  background-color: #6b2dea;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 10px;
+}
+footer #pos {
+  font-weight: 600;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  footer #pos {
+    position: relative;
+    top: -20px;
+    right: -20px;
+  }
+}
+footer h5 {
+  font-size: 15px;
+}
+footer p {
+  text-align: center;
+}
+footer p a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #e63f57;
+  cursor: pointer;
+}
+
+body {
+  background-color: #323233;
+}
+body header,
+body footer {
+  background-color: #39187b;
+}
+body .p-sass {
+  color: #39187b;
+}
+body main .svg-bg {
+  color: #1c1c1c;
+}
+body main #lorem {
+  background-color: #1c1c1c;
+}/*# sourceMappingURL=style.css.map */

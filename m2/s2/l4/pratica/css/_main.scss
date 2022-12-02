@@ -1,0 +1,27 @@
+main{
+    font-family: $font-testo;
+    font-size: $size-testo;
+    background-color: $colore-main;
+    margin: 0 3% 0 3%;
+    padding: 3%;
+    display: flex;
+    #items{
+        display: none;
+    }
+    h1{
+        color: $colore-titoli;
+        font-size: $size-titoli;
+        font-family: $font-Titoli;
+        
+    }
+    h3{
+        color: $colore-testo;
+        font-size: $size-titoletti;
+        font-family: $font-Titoli;
+        }
+    p{
+        color: $colore-testo;
+
+    }
+       
+}

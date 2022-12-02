@@ -1,0 +1,36 @@
+footer {
+    margin-top: 3vh;
+    background-color: $colore-nav;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 10px;
+
+    #pos {
+        @media screen and (min-width: 768px) {
+                position: relative;
+                top: -20px;
+                right: -20px;
+            }
+
+            font-weight: 600;
+            font-size: 22px;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+
+        p {
+            text-align: center;
+
+            a {
+                color: rgba(255, 255, 255, 0.8);
+                text-decoration: $no-decorazioni;
+
+                &:hover {
+                    color: $colore-testonav;
+                    cursor: pointer;
+                }
+            }
+        }
+    }

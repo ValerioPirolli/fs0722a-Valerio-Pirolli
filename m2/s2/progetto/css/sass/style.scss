@@ -1,0 +1,59 @@
+@import '_variables.scss';
+@import '_navbar.scss';
+@import '_titolo.scss';
+@import '_lorem.scss';
+@import '_carousel.scss';
+@import '_footer.scss';
+
+
+
+
+
+
+$template: dark;
+
+
+
+
+
+
+
+
+
+
+
+@if $template ==dark {
+    body {
+        background-color: $bg-dark;
+
+        header,
+        footer {
+            background-color: $bg-dark-hf;
+        }
+
+        .p-sass {
+            color: $bg-dark-hf;
+        }
+
+        main {
+            .svg-bg {
+                color: $bg-darker;
+            }
+
+            #lorem {
+                background-color: #1c1c1c;
+            }
+
+        }
+    }
+}
+@else if $template == bright{
+	body{
+		.cb , #lorem{
+            color: $colore-testo;
+        }
+        .svg-bg {
+            color: #f1f1f1;
+        }
+	}
+}

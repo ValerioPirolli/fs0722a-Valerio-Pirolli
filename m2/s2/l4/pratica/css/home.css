@@ -1,0 +1,164 @@
+nav {
+  background-color: rgb(6, 3, 30);
+  font-size: 1em;
+  color: #323233;
+  padding: 3%;
+  /*display: flex;*/
+}
+nav h3 {
+  /*flex: 1;*/
+  padding-left: 1rem;
+  color: white;
+  font-size: 1.5em;
+}
+nav ul {
+  /*flex: 2;*/
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+nav ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  background-color: whitesmoke;
+  margin: 0 3% 0 3%;
+  padding: 3%;
+  display: flex;
+}
+main #items {
+  display: none;
+}
+main h1 {
+  color: darkblue;
+  font-size: 3em;
+  font-family: "Ubuntu", sans-serif;
+}
+main h3 {
+  color: #323233;
+  font-size: 2em;
+  font-family: "Ubuntu", sans-serif;
+}
+main p {
+  color: #323233;
+}
+
+main * {
+  box-sizing: border-box;
+}
+main *::before, main *::after {
+  box-sizing: border-box;
+}
+main button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  margin: 4%;
+}
+main button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+main button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(6, 3, 30);
+  border-radius: 1.625rem;
+}
+main button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+main button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+main button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+main button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: rgb(6, 3, 30);
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+main button:hover .circle {
+  width: 100%;
+}
+main button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+main button:hover .button-text {
+  color: #fff;
+}
+@supports (display: grid) {
+  main body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.625rem;
+    grid-template-areas: ". main main ." ". main main .";
+  }
+  main #container {
+    grid-area: main;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+body {
+  background-color: #323233;
+}
+
+footer {
+  text-align: center;
+  color: wheat;
+  background-color: rgb(6, 3, 30);
+  padding: 5%;
+}/*# sourceMappingURL=home.css.map */
