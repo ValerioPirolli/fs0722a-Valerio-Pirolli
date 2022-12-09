@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object log user</title>
+</head>
+<body>
+    <input type="text" name="usr" id="usr">
+    <input type="password" name="pwd" id="pwd">
+    <button id="entra_btn">Entra</button>
+    <div id="target1"></div>
+    <div id="target2"></div>
+    <script>
+        function User() {
+            this.name = '';
+            this.accessID = -1;
+        }
+        User.prototype.userType = {} || null; //estende l'oggetto con prototype
+    
+        function Admin() {
+            this.id = 'ADMIN';
+            this.access = 'unlimited';
+        }
+    
+        var EventHandler = {
+            CLICK: 'click',
+            MOUSE_OVER: 'mouseover',
+            MOUSE_OUT: 'mouseout'
+    
+        }
+        var user = new User();
+        var entra_btn = document.querySelector("#entra_btn");
+        var usr = document.querySelector("#usr");
+        var pwd = document.querySelector("#pwd");
+        var target1 = document.querySelector("#target1"); 
+        var target2 = document.querySelector("#target2"); 
+    
+        entra_btn.addEventListener(EventHandler.CLICK, logIn); // al click sul buttone chiama la funzione login
+        usr.addEventListener(EventHandler.MOUSE_OVER, onMouseOver);
+    
+    
+        function logIn(e) {
+            if (usr.value == 'user' && pwd.value == '123') {
+                user.accessID = 0;
+                user.userType = null; // se è user setta la proprietà userType a null
+            }
+            else if (usr.value == 'admin' && pwd.value == '123') { //ho cambiato con l'else if
+                user.accessID = 1;
+                user.userType = new Admin(); // se è admin setta la proprietà userType con il nuovo oggetto new Admin
+            }
+            else{ // terzo caso nell'else se è sbagliato
+                user.accessID = -1;
+                user.userType = null; // se è user setta la proprietà userType a null
+            }
+            user.name = usr.value;
+            console.log(user); 
+            if(user.accessID > -1){
+                target1.innerHTML = 'Benvenuto ' + user.name;
+                target2.innerHTML = '';
+            }
+            else{ 
+                target1.innerHTML = 'User o pwd errate';
+                target2.innerHTML = '';
+            }
+    
+            if(user && user.userType) {
+                if (user.userType.id == 'ADMIN') {
+                    console.log(user.userType.id);
+                    target2.innerHTML = '<h2>Ruolo Admin</h2>';
+                }
+                else{ //aggiunto else per svuotare
+                    target2.innerHTML = '';
+                }
+            }
+    
+        }
+        
+        function onMouseOver(e) {
+            e.target.title = "Inserisci il valore corretto";
+        }
+        
+    </script>
+</body>
+</html>

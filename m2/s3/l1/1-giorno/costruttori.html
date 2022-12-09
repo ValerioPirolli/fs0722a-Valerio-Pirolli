@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costruttori</title>
+</head>
+<body>
+    <!-- con la notazione letterale possiamo costruire degli oggetti rapidamente 
+    immaginiamo di avere bisogno di più oggetti dello stesso tipo 
+    ad esempio più oggetti persona che condividono la stessa struttura
+    -->
+    <script>
+        var persona = {
+            nome: "Mario",
+            cognome: "Rossi",
+            indirizzo: "Via Garibaldi, 50 - Roma",
+            email: "mario.rossi@epicode.it",
+            mostraNomeCompleto: function() {},
+            calcolaCodiceFiscale: function() {}
+        }
+        // se usassimo solo la notazione letterale saremmo costretti a ripetere la definizione per ogni oggetto
+        // otteniamo un codice non riutilizzabile
+        // per ridefinire da zero oggetti che hanno la stessa struttura esiste un costruttore.
+        // un costruttore è una funzione javascript che invochiamo con l'operatore new
+        function persona() {    // definisce le proprietà dell'oggetto assegnandole a se stessa (this)
+            this.nome = "";
+            this.cognome = "";
+            this.indirizzo = "";
+            this.email = "";
+            this.mostraNomeCompleto = function() {};
+            this.calcolaCodiceFiscale = function() {};
+        }
+
+        // per creare un oggetto di tipo persona invoco la funzione premettendo l'operatore new
+        var marioRossi = new persona(); // convenzione del maiuscolo, ma appunto convenzione
+        // new fondamentale perché altrimenti eseguiamo una funzione -> il maiuscolo viene dalla convenzione di distinguerlo
+        marioRossi.nome = "Mario";
+        marioRossi.cognome = "Rossi";
+        var giuseppeVerdi = new persona();
+        giuseppeVerdi.nome = "Giuseppe";
+        giuseppeVerdi.cognome = "Verdi";
+        // creo n oggetti con la stessa struttura e imposto solo i valori specifici
+
+        // può anche essere parametrizzata
+        function persona(nome, cognome) {   
+            this.nome = nome;
+            this.cognome = cognome;
+            this.indirizzo = "";
+            this.email = "";
+            this.mostraNomeCompleto = function() {};
+            this.calcolaCodiceFiscale = function() {};
+        }
+        var marioRossi = new persona("Mario", "Rossi");
+        var giuseppeVerdi = new persona("Giuseppe", "Verdi")
+    </script>
+</body>
+</html>

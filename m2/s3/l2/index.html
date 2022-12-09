@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class User{
+            constructor(nome, cognome, eta){
+                this.name = nome;
+                this.surname = cognome;
+                this.age = eta;
+            }
+            nomeeAnni(){
+                console.log(this.name + ' ' + this.surname + ' ha ' + this.age + ' anni');
+            }
+            chiPiuGrande(comparatore){
+                if(this.age > comparatore.age){
+                    console.log(this.name + ' è più grande di ' + comparatore.name);
+                }else if(this.age < comparatore.age){
+                    console.log(this.name + ' è più piccolo di ' + comparatore.name);
+                }else{
+                    console.log(this.name + ' e ' + comparatore.name + ' hanno la stessa età')
+                }
+            }
+        }
+        var mario = new User('Mario', 'Rossi', 43);
+        var vincenzo = new User('Vincenzo', 'Bianchi', 27);
+        var alessio = new User('Alessio', 'Verdi', 38);
+        mario.nomeeAnni();
+        vincenzo.nomeeAnni();
+        alessio.nomeeAnni();/*
+        mario.chiPiuGrande(alessio);
+        mario.chiPiuGrande(vincenzo);
+        alessio.chiPiuGrande(vincenzo);*/
+
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="row justify-content-center align-items-center g-2 p-3">
+        <div class="col-6">
+            <form>
+                <input type="text" placeholder="nome" id="nome">
+                <input type="text" placeholder="cognome" id="cognome">
+                <input type="date" name="data" id="data_nascita" onchange="submitBday()">
+                <button id="add">aggiungi</button>
+            </form>
+        </div>
+        <div class="col-6">
+            <table class="table table-hover">
+                <tr>
+                    <th>nome</th>
+                    <th>Età</th>
+                </tr>
+                <tr id="tabella">
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.querySelector('#add');
+        btn.addEventListener('click', function(event){
+        event.preventDefault();
+        //lettura input
+        const nome = document.querySelector('#nome').value;
+        const cognome = document.querySelector('#cognome').value;
+        const dataNascita = document.querySelector('#data_nascita').value;
+        //creazione istanza oggetto
+        let p = new Persona(nome, cognome, dataNascita);
+        console.log(p.mostraNomeCompleto());
+        p.aggiungiAllaTabella();
+        p.studi = ['licenza media', 'scuola superiore'];
+        p.nickname = 'Luigino';
+    });
+    //definizione oggetto
+    function Persona(x, y, z){
+        this.nome = x;
+        this.cognome = y;
+        this.dataNascita = z;
+        this.mostraNomeCompleto = function(){
+            return this.nome + ' ' + this.cognome;
+        };
+        this.aggiungiAllaTabella = function(){
+            const eta = this.calcolaEta();
+            let tabella = document.querySelector('.table');
+            let tr = document.createElement('tr');
+            tr.innerHTML = `<td>${this.nome} ${this.cognome}</td><td>${eta}</td>`;
+            tabella.appendChild(tr);
+        }
+        this.calcolaEta = function(){
+            const dataCorrente = new Date();
+            const annoCorrente = dataCorrente.getFullYear();
+            const dataNascita = new Date(this.dataNascita);
+            const annoNascita = dataNascita.getFullYear();
+            const eta = annoCorrente - annoNascita;
+            return eta;
+        }
+    }
+    Persona.prototype.studi = [];
+    Persona.prototype.nickname = '';
+    
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
