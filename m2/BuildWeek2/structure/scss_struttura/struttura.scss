@@ -1,0 +1,25 @@
+@import '../../home/scss/variables';
+@import '_footer.scss';
+@import '_asideLeft.scss';
+@import '_asideRight.scss';
+@import '_playerBs.scss';
+@import '_headernavdesk.scss';
+@import '_navMobTab.scss';
+
+body{
+    color: white;
+    background-color: #202020;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+#contenitore{
+    @media screen and(min-width:768px) {
+        margin-left: 25%;
+    }
+    @media screen and(min-width:1200px) {
+        margin-right:25% ;
+    }
+    
+}

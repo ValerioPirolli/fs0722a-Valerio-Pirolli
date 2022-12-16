@@ -1,0 +1,36 @@
+#nav-desktop {
+    svg {
+        height: 2rem;
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 99em;
+        padding: 5px;
+    }
+}
+
+
+
+
+header {
+    margin: 0;
+    padding: 0;
+
+    #acc-desk {
+        width: fit-content;
+        background-color: black;
+        border-radius: 99em;
+        transform: scale(0.8);
+
+        svg {
+            background-color: darkgray;
+            padding: 0;
+            margin: 2px 3px 3px 0;
+        }
+
+        .chev-giu {
+            background-color: transparent;
+            height: 0.8em;
+            margin-left: 0.3em;
+        }
+    }
+}

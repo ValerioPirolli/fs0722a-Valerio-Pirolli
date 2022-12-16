@@ -1,0 +1,294 @@
+
+#player-bot{
+    div{
+        height: 10vh;
+    }
+    background-color: #252525;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 101vw;
+    text-align: end;
+    svg{
+        height: 1.5rem;
+        margin: 0;
+        margin-top: 2.8vh;
+        color: darkgrey;
+    }
+    img{
+      position: fixed;
+      bottom: 2vh;
+      left: 1vh;
+      height: 6vh;
+    }
+    #testo-plBs{
+        text-align: left;
+        line-height: 1;
+        padding-top: 2vh;
+        margin-left: -1em;
+        margin-right: 1em;
+    }
+    .playerSvg{
+        margin-top: 0;
+      }
+
+}
+
+
+
+@media screen and (min-width:768px) {
+    .audio-player {
+        --player-button-width: 3em;
+        --sound-button-width: 2em;
+        --space: .5em;
+        width: 100%;
+        height: 15rem;
+      }
+      .sound-button{
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        width: var(--sound-button-width);
+        height: var(--sound-button-width);
+        background-color: transparent;
+        border:none;
+        cursor: pointer;
+      }
+      .icon-container {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50%;
+        }
+      }
+      .audio-icon {
+        width: 90%;
+        height: 90%;
+     }
+         
+      .controls {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 95%;
+        margin-top: 10px;
+      }
+      
+      .player-button {
+        background-color: transparent;
+        border: 0;
+        width: var(--player-button-width);
+        height: var(--player-button-width);
+        cursor: pointer;
+        padding: 0;
+      }
+      
+      .timeline {
+        -webkit-appearance: none;
+        width: 100%;
+        height: .5em;
+        background-color: #e5e5e5;
+        border-radius: 5px;
+        background-size: 0% 100%;
+        margin-right: var(--space);
+      }
+      
+      .timeline::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+        background-color: white;
+      }
+      
+      .timeline::-moz-range-thumb {
+        -webkit-appearance: none;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+        background-color: white;
+      }
+      
+      .timeline::-ms-thumb {
+        -webkit-appearance: none;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+        background-color: white;
+      }
+      
+      .timeline::-webkit-slider-thumb:hover {
+        background-color: #943f65;
+      }
+      
+      .timeline:hover::-webkit-slider-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-moz-range-thumb:hover {
+        background-color: #943f65;
+      }
+      
+      .timeline:hover::-moz-range-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-ms-thumb:hover {
+        background-color: #943f65;
+      }
+      
+      .timeline:hover::-ms-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-webkit-slider-runnable-track {
+        -webkit-appearance: none;
+       
+
+    }    
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    .audio-player {
+        --player-button-width: 3em;
+        --sound-button-width: 2em;
+        --space: .5em;
+        width: 120%;
+      
+        height: 15rem;
+      }
+      
+      .controls {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+    
+      }
+    
+    
+      .player-button {
+        background-color: transparent;
+        border: 0;
+        width: var(--player-button-width);
+        height: 100%;
+        cursor: pointer;
+        padding: 0;
+      }
+      
+      .timeline {
+        -webkit-appearance: none;
+        width:100%;
+        height: .5em;
+        
+        background-color: gray;
+        border-radius: 5px;
+        background-size: 0% 100%;
+        margin-right: var(--space);
+      }
+      
+      .timeline::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+      }
+      
+      .timeline::-moz-range-thumb {
+        -webkit-appearance: none;
+        width: 2em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+        
+      }
+      
+      .timeline::-ms-thumb {
+        -webkit-appearance: none;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all .1s;
+        
+      }
+      
+      .timeline::-webkit-slider-thumb:hover {
+        background-color: white;
+      }
+      
+      .timeline:hover::-webkit-slider-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-moz-range-thumb:hover {
+        background-color: white;
+      }
+      
+      .timeline:hover::-moz-range-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-ms-thumb:hover {
+        background-color: white;
+      }
+      
+      .timeline:hover::-ms-thumb {
+        opacity: 1;
+      }
+      
+      .timeline::-webkit-slider-runnable-track {
+        -webkit-appearance: none;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+      }
+      
+      .timeline::-moz-range-track {
+        -webkit-appearance: none;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+      }
+      
+      .timeline::-ms-track {
+        -webkit-appearance: none;
+        box-shadow: none;
+        border: none;
+        color:white;
+        background: transparent;
+      }
+      
+      .sound-button {
+        color:white;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        padding: 0;
+        z-index: 999;
+      }
+    }

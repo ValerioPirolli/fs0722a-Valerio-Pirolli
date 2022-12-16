@@ -1,0 +1,65 @@
+#right{
+    padding-top: 1%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 90vh;
+    color: white;
+    background-color: $background-color-sf;
+    #intAside{
+        
+        span{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    #attivitaAmici{
+        margin-top: 20px;
+        div{
+            margin:0;
+            margin-bottom: 10px;
+            padding: 0;
+            padding-left: 8px;
+        }
+        span{
+            font-weight: normal;
+            font-size: 10px;
+            padding: 0;
+            text-align: left;
+        }
+        img{
+           border-radius: 100%;
+        }
+        }
+        .foto-profilo{
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            img {
+                aspect-ratio: 1/1;
+                height: 100%;
+                border-radius: 100%;
+            }
+        }
+        .ore{
+            font-size: 10px;
+            padding-top: 15px;
+            text-align: center;                   
+        }
+        .testo-amici{
+            font-size: 10px;
+        }
+    }
+    #left-amici, #right-amici{
+        display: inline;
+        padding: 1em;
+        }
+        #right-amici{
+            text-align: end;
+            margin-right: 0;
+            margin-left: 10%;
+        }

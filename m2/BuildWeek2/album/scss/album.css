@@ -1,0 +1,105 @@
+header {
+  background-image: linear-gradient(rgb(172, 93, 172), #252525);
+}
+header nav svg {
+  margin-left: -0.8em;
+  height: 1.2rem;
+}
+header .carta {
+  color: white;
+}
+header .carta .img-carta {
+  text-align: center;
+}
+header .carta .img-carta img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+header .carta .carta-b {
+  padding: 3%;
+  flex: 1 1 auto;
+}
+header .carta .carta-b #titolo-album {
+  margin-top: 1rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+}
+header .carta .carta-b img {
+  float: left;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+@media screen and (min-width: 1200px) {
+  header .carta {
+    display: flex;
+    padding: 5%;
+  }
+  header .carta .img-carta img {
+    margin-right: 2em;
+  }
+  header .carta .carta-b {
+    flex: 1 1 auto;
+    color: white;
+    align-self: center;
+  }
+  header .carta .carta-b #titolo-album {
+    font-size: 50px;
+  }
+}
+
+main {
+  color: white;
+  margin-bottom: 100px;
+  padding: 1em;
+}
+main #tasti svg {
+  width: 1.5rem;
+  margin-left: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+main #tasti #tasti-s {
+  text-align: start;
+  margin-left: -2rem;
+}
+main #tasti #tasti-e {
+  text-align: end;
+}
+main #tasti #tasti-e .play {
+  fill: black;
+  background-color: green;
+  border-radius: 99em;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.75rem;
+  margin-right: -1rem;
+}
+@media screen and (min-width: 1200px) {
+  main .canzone .canzone-hover:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+main .canzone .song {
+  padding: 0.5em 0 0.5em 0;
+}
+main .canzone .song p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: clip;
+  line-height: 1;
+  align-self: center;
+  margin: 0;
+}
+main .canzone .puntini {
+  align-self: center;
+}
+main .canzone .puntini svg {
+  height: 1.5em;
+}/*# sourceMappingURL=album.css.map */

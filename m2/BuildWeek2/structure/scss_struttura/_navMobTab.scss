@@ -1,0 +1,22 @@
+nav{
+    text-align: left;
+    font-size: 1em;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    @media screen and(min-width:768px) {
+        width: 75vw;
+    }
+    text-align: center;
+    svg {
+        position: fixed;
+        top: 1em;
+        left: 2em;
+        margin-left: -0.8em;
+        height: 1em;
+    }
+}
+header{
+    padding-top: 3%;
+}

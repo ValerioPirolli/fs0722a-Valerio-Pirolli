@@ -1,0 +1,15 @@
+body{
+    background-color: $background-color-sf;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;  
+    
+    @media screen and (min-width:768px) {
+        display:flex;
+        #ciao{
+            flex: 1;   
+            margin-left: 75px;         
+        }
+
+    }
+}

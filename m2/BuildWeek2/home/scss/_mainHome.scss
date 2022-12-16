@@ -1,0 +1,173 @@
+main {
+    margin-left: 20px;
+    #copertina{
+        &:nth-child(0){
+           justify-content: flex-end;
+        }
+    }
+    nav {
+        height:50px;
+        position: sticky;
+        top:0;
+        padding-top: 15px;
+        background-color: $background-color-sf;
+        span {
+            background-color: $background-color-sf-btn;
+            padding: 10px;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+#preferenze {
+        max-width: 100%;
+        box-sizing: border-box;
+        margin-top: 15px;
+        font-size: 10px;
+        div{
+            .pref{
+                display: flex;
+                background-color: $background-color-sf-btn;
+                border-radius: 5px;
+                overflow: hidden;
+                .img-pref{
+                    height: 50px;
+                    width: 50px;
+                    img {
+                        aspect-ratio: 1/1;
+                        height: 100%;
+                    }
+                }
+            
+            
+            .testo-pref{
+                p{
+                    margin-left: 5px;
+                    padding-top: 10px;
+                    margin-bottom: inherit;
+                    overflow: hidden;
+                    display: -webkit-box; // questo serve a non far strabordare il testo
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    text-overflow: ellipsis;
+                    
+                }
+            }
+            a {
+                    padding: 0;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: white;
+                }
+                @media screen and (min-width:768px) {
+                    width: 100%;
+                }
+
+            }
+        }
+        }
+    
+    .scroll {
+        box-sizing: border-box;
+        max-width: 90vw;
+        display: flex;
+        overflow-x: auto;
+        margin: 0;
+        padding: 0;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+
+    .scroll-div {
+        padding: 2%;
+        min-width: 40vw;
+        max-width: 40vw;
+        @media screen and (min-width:768px) {
+            min-width: 16vw;
+            max-width: 16vw;
+        }
+        div {
+            p {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                width: 100%;
+            }
+            a{
+                text-decoration: none;
+                color:white;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .scroll{
+        max-width: 70vw;
+    }
+    .scroll-div {
+            min-width: 16vw;
+            max-width: 16vw;
+        }
+    }
+@media screen and (min-width:1200px) {
+    #ciao{
+        background-color: $background-color-sf-btn-darker;
+        header{
+            margin-left: 18%;
+            background-color: $background-color-sf-btn-darker;
+            svg{
+                display: none;
+            }
+        }
+        nav{
+            display: none;    
+            background-color: $background-color-sf-btn-darker;       
+        }
+        main{
+            margin-right: 20%;
+            background-color: $background-color-sf-btn-darker;
+        }
+        #nav-desktop{
+            margin-right: 20%;
+        .div-nav-desk {
+            margin-bottom: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+                display: inline-block;
+            }
+            .previous{
+                background-color: $background-color-sf;
+                padding: 2px 8px;
+                border-radius: 50%;
+                transform: scale(1.5);
+                margin-right: 20px;
+            }
+            .next{
+                background-color: $background-color-sf;
+                padding: 2px 8px;
+                border-radius: 50%;
+                transform: scale(1.5);
+            }
+        }
+        }
+        #contenitoreAlbum{
+            margin-right: 21%;
+            background-color: $background-color-sf;
+        }
+
+    }
+}

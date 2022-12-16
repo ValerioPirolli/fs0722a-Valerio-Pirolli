@@ -1,0 +1,130 @@
+header {
+  margin: 20px 20px 5px 20px;
+  div {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-weight: bold;
+      font-size: 22px;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      li {
+        margin-left: 1em;
+        svg {
+          color: white;
+          height: 1.5em;
+        }
+      }
+    }
+  }
+
+  
+  #nav-desktop {
+    font-size: 2em;
+      }
+      svg {
+        height: 2rem;
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 99em;
+        padding: 5px;
+      }
+    
+  }
+  #account {
+    #div-account {
+      width: fit-content;
+      padding: 1%;
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 99em;
+      font-weight: bold;
+      .svg1-acc {
+        background-color: rgb(62, 62, 62);
+        height: 1.8em;
+        border-radius: 99em;
+      }
+      .svg2-acc {
+        height: 1em;
+        width: 1.3em;
+      }
+    }
+  }
+
+@media screen and(min-width:1200px) {
+  header {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 132, 0.5) , $background-color-sf);
+    #acc-desk{
+      width: fit-content;
+      background-color: black;
+      border-radius: 99em;
+      transform: scale(0.8);
+      svg{
+        background-color: darkgray;
+        padding: 0;
+        margin: 2px 3px 3px 0;
+      }
+      .chev-giu{
+        background-color: transparent;
+        height: 0.8em;
+        margin-left: 0.3em;
+      }
+    }
+    #albumCover{
+      height: fit-content;
+    }
+    #contenitoreAlbum {
+      background-image: linear-gradient(to bottom left, transparent, black);
+      margin: 0px 3vw 0 3vw;
+      border-radius: 8px;
+      padding: 2% 3% 2% 3%;
+
+      #card-body {
+        margin: 0;
+        width: 100%;
+        .card-text {
+          font-weight: bold;
+          padding: 0;
+        }
+        h1 {
+          font-size: 40px;
+          font-weight: bold;
+          padding: 0;
+        }
+        span {
+          padding: 0;
+        }
+        #button {
+          margin-left: -15px;
+          width: 65%;
+          font-size: 1rem;
+          margin-top: 3%;
+        }
+        #button-play {
+          background: $spotify-verde;
+          border-radius: 30px;
+          padding-inline: 30px;
+          font-weight: bold;
+          border: none;
+        }
+        #button-save {
+          background: black;
+          border: 1px solid white;
+          border-radius: 30px;
+          padding-inline: 30px;
+          color: white;
+          font-weight: bold;
+        }
+        #etc {
+          font-size: 2rem;
+          color: grey;
+        }
+      }
+    }
+  }
+}

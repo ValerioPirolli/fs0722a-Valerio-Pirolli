@@ -1,0 +1,308 @@
+header {
+  margin: 20px 20px 5px 20px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+header div h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+header div ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+header div ul li {
+  margin-left: 1em;
+}
+header div ul li svg {
+  color: white;
+  height: 1.5em;
+}
+header #nav-desktop {
+  font-size: 2em;
+}
+header svg {
+  height: 2rem;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 99em;
+  padding: 5px;
+}
+
+#account #div-account {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 99em;
+  font-weight: bold;
+}
+#account #div-account .svg1-acc {
+  background-color: rgb(62, 62, 62);
+  height: 1.8em;
+  border-radius: 99em;
+}
+#account #div-account .svg2-acc {
+  height: 1em;
+  width: 1.3em;
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 132, 0.5), rgb(18, 18, 18));
+  }
+  header #acc-desk {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: black;
+    border-radius: 99em;
+    transform: scale(0.8);
+  }
+  header #acc-desk svg {
+    background-color: darkgray;
+    padding: 0;
+    margin: 2px 3px 3px 0;
+  }
+  header #acc-desk .chev-giu {
+    background-color: transparent;
+    height: 0.8em;
+    margin-left: 0.3em;
+  }
+  header #albumCover {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header #contenitoreAlbum {
+    background-image: linear-gradient(to bottom left, transparent, black);
+    margin: 0px 3vw 0 3vw;
+    border-radius: 8px;
+    padding: 2% 3% 2% 3%;
+  }
+  header #contenitoreAlbum #card-body {
+    margin: 0;
+    width: 100%;
+  }
+  header #contenitoreAlbum #card-body .card-text {
+    font-weight: bold;
+    padding: 0;
+  }
+  header #contenitoreAlbum #card-body h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0;
+  }
+  header #contenitoreAlbum #card-body span {
+    padding: 0;
+  }
+  header #contenitoreAlbum #card-body #button {
+    margin-left: -15px;
+    width: 65%;
+    font-size: 1rem;
+    margin-top: 3%;
+  }
+  header #contenitoreAlbum #card-body #button-play {
+    background: rgb(30, 215, 96);
+    border-radius: 30px;
+    padding-inline: 30px;
+    font-weight: bold;
+    border: none;
+  }
+  header #contenitoreAlbum #card-body #button-save {
+    background: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-inline: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  header #contenitoreAlbum #card-body #etc {
+    font-size: 2rem;
+    color: grey;
+  }
+}
+main {
+  margin-left: 20px;
+}
+main #copertina:nth-child(0) {
+  justify-content: flex-end;
+}
+main nav {
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 15px;
+  background-color: rgb(18, 18, 18);
+}
+main nav span {
+  background-color: rgb(42, 42, 42);
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+main nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#preferenze {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 15px;
+  font-size: 10px;
+}
+#preferenze div .pref {
+  display: flex;
+  background-color: rgb(42, 42, 42);
+  border-radius: 5px;
+  overflow: hidden;
+}
+#preferenze div .pref .img-pref {
+  height: 50px;
+  width: 50px;
+}
+#preferenze div .pref .img-pref img {
+  aspect-ratio: 1/1;
+  height: 100%;
+}
+#preferenze div .pref .testo-pref p {
+  margin-left: 5px;
+  padding-top: 10px;
+  margin-bottom: inherit;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+#preferenze div .pref a {
+  padding: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  #preferenze div .pref {
+    width: 100%;
+  }
+}
+
+.scroll {
+  box-sizing: border-box;
+  max-width: 90vw;
+  display: flex;
+  overflow-x: auto;
+  margin: 0;
+  padding: 0;
+}
+.scroll::-webkit-scrollbar {
+  width: 0;
+}
+.scroll .scroll-div {
+  padding: 2%;
+  min-width: 40vw;
+  max-width: 40vw;
+}
+@media screen and (min-width: 768px) {
+  .scroll .scroll-div {
+    min-width: 16vw;
+    max-width: 16vw;
+  }
+}
+.scroll .scroll-div div p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.scroll .scroll-div div a {
+  text-decoration: none;
+  color: white;
+}
+.scroll .scroll-div img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .scroll {
+    max-width: 70vw;
+  }
+  .scroll-div {
+    min-width: 16vw;
+    max-width: 16vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #ciao {
+    background-color: rgb(35, 35, 35);
+  }
+  #ciao header {
+    margin-left: 18%;
+    background-color: rgb(35, 35, 35);
+  }
+  #ciao header svg {
+    display: none;
+  }
+  #ciao nav {
+    display: none;
+    background-color: rgb(35, 35, 35);
+  }
+  #ciao main {
+    margin-right: 20%;
+    background-color: rgb(35, 35, 35);
+  }
+  #ciao #nav-desktop {
+    margin-right: 20%;
+  }
+  #ciao #nav-desktop .div-nav-desk {
+    margin-bottom: 20px;
+  }
+  #ciao #nav-desktop .div-nav-desk a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  }
+  #ciao #nav-desktop .div-nav-desk .previous {
+    background-color: rgb(18, 18, 18);
+    padding: 2px 8px;
+    border-radius: 50%;
+    transform: scale(1.5);
+    margin-right: 20px;
+  }
+  #ciao #nav-desktop .div-nav-desk .next {
+    background-color: rgb(18, 18, 18);
+    padding: 2px 8px;
+    border-radius: 50%;
+    transform: scale(1.5);
+  }
+  #ciao #contenitoreAlbum {
+    margin-right: 21%;
+    background-color: rgb(18, 18, 18);
+  }
+}
+body {
+  background-color: rgb(18, 18, 18);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+  }
+  body #ciao {
+    flex: 1;
+    margin-left: 75px;
+  }
+}/*# sourceMappingURL=style.css.map */
