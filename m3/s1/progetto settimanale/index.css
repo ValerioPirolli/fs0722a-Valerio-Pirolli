@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://media2.giphy.com/media/k6Wm3KbGfY7rk6PK4L/giphy.gif?cid=790b7611c34dfc668cd9e7dfd6da51f3663ea21c743b83c6&rid=giphy.gif&ct=g");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-x: hidden;
+  color: black;
+  text-shadow: 1px 1px 1px yellow, -1px -1px 1px yellow;
+}
+
+.tastierino {
+  box-shadow: 3px 3px 10px yellowgre;
+  background-size: cover;
+  background-position: center;
+  border-radius: 99em;
+  font-size: 1.5em;
+  padding: 5px 0 5px 0;
+}
+.tastierino:nth-child(even) {
+  background-image: url("https://media3.giphy.com/media/hRhCc5bbYh9w4/giphy.gif?cid=790b76113c6534c995b8e72e92dd805682815191f73570ef&rid=giphy.gif&ct=g");
+}
+.tastierino:nth-child(odd) {
+  background-image: url("https://media.tenor.com/-uMIofTxVWIAAAAd/cat-vibing-vibing-cat.gif");
+}
+.tastierino:hover {
+  transform: scale(1.2);
+}
+
+.altriT {
+  background-image: url("https://media2.giphy.com/media/MDXomrcGshGso/giphy.gif?cid=ecf05e47gtpt5xbfawqzhmdsjohyngkgixv5e5v74mvwb8yu&rid=giphy.gif&ct=g");
+  box-shadow: 3px 3px 10px yellowgre;
+  background-size: cover;
+  background-position: center;
+  border-radius: 99em;
+  font-size: 1.5em;
+  padding: 5px 0 5px 0;
+}
+
+.t2 {
+  background-image: url("https://media3.giphy.com/media/yoJC2CsPwP2VKPNnuU/giphy.gif?cid=ecf05e472o4l819pnkhiy7a2pg4vu0bpd4mp3yj28r7pyfol&rid=giphy.gif&ct=g");
+  box-shadow: 3px 3px 10px yellowgre;
+  background-size: cover;
+  background-position: center;
+  border-radius: 99em;
+  font-size: 1.5em;
+  padding: 5px 0 5px 0;
+  height: 3em;
+}
+
+.schermo {
+  margin-top: 30px;
+}
+.schermo input {
+  color: blue;
+  background-color: transparent;
+  font-size: 2em;
+  border: 1px solid transparent;
+  width: 90%;
+  caret-color: transparent;
+  outline: none;
+}
+
+body {
+  background-image: unset;
+  background-color: white;
+}
+body .tastierino:nth-child(even) {
+  background-image: unset;
+  background-color: lightgrey;
+}
+body .tastierino:nth-child(odd) {
+  background-image: unset;
+  background-color: lightgrey;
+}
+body .t2 {
+  background-image: unset;
+}
+body .altriT {
+  background-image: unset;
+  background-color: lightgrey;
+}/*# sourceMappingURL=index.css.map */
