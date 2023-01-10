@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "body":"Post attivo 1",
+    "title":"Post attivo",
+    "active":true
+  },
+  {
+    "id":2,
+    "body":"Post attivo 2",
+    "title":"Post attivo",
+    "active":true
+  },
+  {
+    "id":3,
+    "body":"Post attivo 3",
+    "title":"Post attivo",
+    "active":true
+  },
+  {
+    "id":4,
+    "body":"Post inattivo 1",
+    "title":"Post inattivo",
+    "active":false
+  },
+  {
+    "id":5,
+    "body":"Post inattivo 2",
+    "title":"Post inattivo",
+    "active":false
+  }
+]

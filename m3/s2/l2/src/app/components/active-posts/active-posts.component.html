@@ -1,0 +1,8 @@
+<div *ngFor="let post of posts">
+<div *ngIf="post.active" class="card text-bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">{{post.title}}</div>
+  <div class="card-body">
+    <h5 class="card-title">{{post.title}}</h5>
+    <p class="card-text">{{post.body}}</p>
+  </div>
+</div>
