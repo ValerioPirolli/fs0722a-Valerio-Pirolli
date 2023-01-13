@@ -1,0 +1,12 @@
+<p *ngIf="!tatatwa">Recupero Task...</p>
+<div *ngIf="tatatwa">
+  <h1>COMPLETATE</h1>
+  <img src="https://media0.giphy.com/media/SvLQ270MWY0GpztVjo/giphy.gif" alt="img">
+  <div *ngFor="let task of list" id="div">
+    <div *ngIf="task.completed">
+      <app-card [task]="task">
+        <p class="bottone" (click)="distruggi(this.task.id)">×</p>
+      </app-card>
+    </div>
+  </div>
+</div>

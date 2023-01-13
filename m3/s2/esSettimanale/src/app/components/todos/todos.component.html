@@ -1,0 +1,20 @@
+<p *ngIf="!tatatwa">Recupero Task...</p>
+<div *ngIf="tatatwa">
+  <div>
+    <img src="https://media0.giphy.com/media/fvSnAaFUjIqh6XXIFp/giphy.gif" alt="img">
+    <div id="inbu">
+      <div *ngIf="list.length === 0" class="testo">Nessuna task</div>
+      <input type="text" name="addList" [(ngModel)]="addList">
+      <button (click)="addToArr(addList)">+</button>
+    </div>
+
+    <div *ngFor="let task of list">
+      <div *ngIf="!task.completed">
+        <app-card [task]="task" >
+          <p class="bottone" (click)="noMoreTrue(task)">✓
+          </p>
+        </app-card>
+      </div>
+    </div>
+  </div>
+</div>

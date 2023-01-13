@@ -1,0 +1,8 @@
+<h1>Post Inattivi</h1>
+
+<div *ngFor="let p of posts">
+    <!-- <app-post-card [post]="p" (toggleEmit)="attiva($event)"></app-post-card> -->
+    <app-post-card [post]="p">
+        <button (click)="attiva(p.id)">Attiva</button>
+    </app-post-card>
+</div>

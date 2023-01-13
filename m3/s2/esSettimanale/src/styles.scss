@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #252525;
+  color: whitesmoke;
+  text-align: center;
+  .bottone{
+    color: green;
+    font-weight: 600;
+    height: 1,5em;
+    margin-left: 2em;
+    scale: 1.5;
+    &:hover{
+      cursor: pointer;
+      color: red;
+    }
+  }
+  img{
+    height: 100px;
+  }
+}

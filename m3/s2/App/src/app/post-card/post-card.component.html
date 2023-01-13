@@ -1,0 +1,19 @@
+<!-- ngClass aggiungerà le classi con valore true al div -->
+<div class="card" style="width: 18rem;"
+[ngClass]="{
+    'bg-success': post.type == 'news',
+    'bg-danger': post.type == 'politics'
+}">
+    <div class="card-body">
+      <h4><span appSfondo>Post</span></h4>
+        <h5 class="card-title" >{{post.id}} - {{post.title | uppercase}} </h5>
+        <p class="card-text">{{post.body}}</p>
+        <a class="btn btn-warning" [routerLink]="'/dettagli/'+[post.id]">Dettagli</a>
+    </div>
+
+    <!-- placeholder per contenuto da segnare nel parent -->
+    <ng-content></ng-content>
+
+    <!-- questo lo usiamo se vogliamo usare @Output -->
+    <!-- <button (click)="toggle()" >{{post.active ? "Disattiva" : "Attiva"}}</button> -->
+</div>

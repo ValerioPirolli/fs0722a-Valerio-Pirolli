@@ -1,0 +1,7 @@
+<div *ngFor="let user of users" >
+ <a class="btn btn-danger m-2" [routerLink]="[user.id]" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">{{user.nome}}</a>
+
+</div>
+<router-outlet></router-outlet>
+
+
