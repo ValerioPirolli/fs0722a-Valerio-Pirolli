@@ -1,0 +1,7 @@
+<form #f="ngForm" (ngSubmit)="loginForm(f)">
+    <div class="d-flex flex-column justify-content-center">
+    <input type="email" ngModel name="email" placeholder="email" class=" form-group">
+    <input type="password" ngModel name="password" placeholder="password" autocomplete="current-password" class=" form-group">
+    <button type="submit" class="btn btn-info text-center text-dark fw-bold">Login</button>
+    </div>
+</form>

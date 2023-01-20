@@ -1,0 +1,10 @@
+<form #f="ngForm" (ngSubmit)="signUpForm(f)">
+  <div class="d-flex flex-column justify-content-center">
+  <input type="text" name="name"  ngModel placeholder="nome" class=" form-group">
+  <input type="email" name="email" ngModel  placeholder="email" class=" form-group">
+  <input type="password" name="password" ngModel  placeholder="password" autocomplete="current-password">
+  <button type="submit" class="btn btn-info text-center text-dark fw-bold">Registrati</button>
+</div>
+</form>
+
+

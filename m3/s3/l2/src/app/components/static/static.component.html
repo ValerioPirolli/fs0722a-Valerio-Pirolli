@@ -1,0 +1,45 @@
+<div class="container">
+  <h1 class="text-center">Template-Driven Hero Form</h1>
+  <form #form="ngForm" (ngSubmit)="submit()">
+    <div ngModelGroup="user" id="user" #userGroup="ngModelGroup">
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" [ngModel]="user.nome" class="form-control" required #nome="ngModel" >
+        <p *ngIf="nome.invalid && nome.touched"><b>Campo obbligatorio</b></p>
+      </div>
+
+      <div class="form-group">
+        <label for="alterEgo">Alter Ego</label>
+        <input type="text" name="alterEgo" id="alterEgo" required [ngModel]="user.alterEgo" #alterEgo="ngModel" class="form-control">
+        <p *ngIf="alterEgo.invalid && alterEgo.touched" class="bg-warning text-danger fw-bold"><b>Campo obbligatorio</b></p>
+      </div>
+
+      <div class="form-group">
+        <label for="superPotere" >Super Potere</label>
+        <select name="superPotere" id="superPotere" class="form-select" [ngModel]="user.superPotere" required #superPotere="ngModel">
+          <option value="Super forza">Super Forza</option>
+          <option value="Super velocita">Super Velocità</option>
+          <option value="Invisibilita">Invisibilità</option>
+        </select>
+        <p *ngIf="superPotere.invalid && superPotere.touched "> Campo obbligatorio</p>
+      </div>
+
+      <div class="form-group">
+        <label for="nemico">Nemico</label>
+        <input type="text" name="nemico" id="nemico" required maxlength="10" [ngModel]="user.nemico" #nemico="ngModel" class="form-control">
+        <p *ngIf="nemico.invalid &&  nemico.touched " class="bg-warning text-danger fw-bold">Campo obbligatorio. Massimo 10 caratteri </p>
+      </div>
+
+      <div class="form-group">
+        <label for="pianeta">Pianeta</label>
+        <input type="text" name="pianeta" id="pianeta" required minlength="5" [ngModel]="user.pianeta" #pianeta="ngModel" class="form-control">
+        <p *ngIf="pianeta.invalid  && pianeta.touched" class="bg-warning text-danger fw-bold">Campo obbligatorio. Minimo 5 caratteri ({{pianeta.value.length}}/5)</p>
+      </div>
+
+    </div>
+
+      <button type="submit" class="btn btn-info col-12">Crea</button>
+
+  </form>
+</div>
