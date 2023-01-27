@@ -1,0 +1,31 @@
+
+
+
+
+<div class="login-container">
+    <form action="" class="form-login"#f="ngForm" (ngSubmit)="loginForm(f)">
+        <ul class="login-nav">
+            <li class="login-nav__item active">
+                <a>Log In</a>
+            </li>
+            <li class="login-nav__item">
+                <a routerLink="/signup">Sign Up</a>
+            </li>
+        </ul>
+        <label for="email" class="login__label">
+            email
+        </label>
+        <input class="login__input login-input-user"  ngModel name="email" type="email" required/>
+
+        <label for="password" class="login__label">
+            Password
+        </label>
+        <input class="login__input login-input-password" type="password" ngModel name="password" required/>
+        <hr>
+        <button class="login__submit" type="submit">Log in</button>
+    </form>
+</div>
+
+
+
+

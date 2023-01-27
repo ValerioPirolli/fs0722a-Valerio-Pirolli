@@ -1,0 +1,993 @@
+{
+  "films": [
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXhM40aC4OXSZLsn8tWgXVcggqy7Y9GTQEuvp2hUTZ4KXnBocLcfujYpZCzZcAViUcquewL-v3recJbGOaffRWGYeqcplOfZZZw.webp?r=74d",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Commedia"
+      ],
+      "id": 1111,
+      "original_language": "en",
+      "title": "Come ti ammazzo il bodyguard",
+      "duration": "1h 58m",
+      "overview": "Una guardia del corpo deve fare in modo che un testimone illustre, che risulta essere un pericoloso assassino, resti vivo per testimoniare contro un brutale dittatore.",
+      "popularity": 1907.244,
+      "poster_path": "https://resources5.eaglepictures.com/image/1/630/945/5b1fd8d0ef7b4/come-ti-ammazzo-il-bodyguard-cover.jpg",
+      "release_date": "2017-08-17",
+      "video": "https://www.youtube.com/embed/-pYFboZBbXI",
+      "vote_average": 6.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://m.media-amazon.com/images/S/pv-target-images/6d37040d6c2e29fdeac86a8abac54e69877df57001ded90b3cc1c6267d80f30b._UR1920,1080_UX400_UY225_.jpg",
+      "genres": [
+        "Azione",
+        "Fantascienza",
+        "Arti-marziali"
+      ],
+      "id": 1112,
+      "original_language": "en",
+      "title": "Mortal Kombat",
+      "duration": "1h 50m",
+      "overview": "Un pugile fallito scopre un segreto di famiglia che lo conduce ad un torneo mistico chiamato Mortal Kombat. Qui incontra un gruppo di guerrieri che combattono fino alla morte per salvare i regni dal malvagio stregone Shang Tsung.",
+      "popularity": 1909.664,
+      "poster_path": "http://image.tmdb.org/t/p/w500/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
+      "release_date": "2021-04-07",
+      "video": "https://www.youtube.com/embed/NYH2sLid0Zc",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://m.media-amazon.com/images/S/pv-target-images/79629942c385799b81539975f5a5fbb2a8ebe98878d55fd41b76a4132dcfa3fe._UR1920,1080_UX400_UY225_.jpg",
+      "genres": [
+        "Famiglia",
+        "Cinema Fantatico",
+        "Famiglia"
+      ],
+      "id": 1113,
+      "original_language": "en",
+      "title": "Harry Potter e la pietra filosofale",
+      "duration": "2h 32m",
+      "overview": "Il giorno del suo undicesimo compleanno, Harry Potter scopre di essere un potente mago e di essere atteso alla Scuola di magia e stregoneria di Hogwarts.",
+      "popularity": 2022.165,
+      "poster_path": "https://i.ebayimg.com/images/g/9TkAAOSwtJZXVZP~/s-l500.jpg",
+      "release_date": "2001-12-06",
+      "video": "https://www.youtube.com/embed/rQLfqdLZ49A",
+      "vote_average": 9.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRIFweNrdPvGTZ-sVz9h0QfZTIYK2XltNKy-M_Q7X6_OWInnwf-MAvRgEYDSM86laUt64aOwiIVpRlfpuLsvfBC8Lw2fiGhuaNQ.webp?r=8fd",
+      "genres": [
+        "Giallo",
+        "Mistero",
+        "Thriller"
+      ],
+      "id": 1114,
+      "original_language": "en",
+      "title": "Cena con delitto - Knives out",
+      "duration": "2h 10m",
+      "overview": "Un investigatore porta alla luce una fitta trama di segreti e bugie legata alla morte di un famoso scrittore di gialli e alla sua eccentrica, inquietante famiglia.",
+      "popularity": 1915.123,
+      "poster_path": "https://guidatv.sky.it/uuid/21f13ccf-fc10-48ea-933a-2084e23aa753/cover?md5ChecksumParam=d3e05fb7de47594c1fb72cfbf6297b13",
+      "release_date": "2019-12-05",
+      "video": "https://www.youtube.com/embed/YejFxic6W4Q",
+      "vote_average": 9.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABflMXNBn9HCGACzQrgoCX_GN7ZCImvImSyATQFXBMSEn0SgFVMN87Qf2LYDTk3C6YhW2pyYFaG6zukBEy8p3GvQ5CQsKSP2cmmk.webp?r=602",
+      "genres": [
+        "Film per Famiglie",
+        "Avventura per Famiglie",
+        "Commedia"
+      ],
+      "id": 1115,
+      "original_language": "en",
+      "title": "Megamind",
+      "duration": "1h 36m",
+      "overview": "Quando l'astuto supercattivo Megamind uccide per errore il suo avversario, crea un nuovo nemico che cerca di distruggere il mondo.",
+      "popularity": 1907.244,
+      "poster_path": "https://m.media-amazon.com/images/I/51mrQIFS6CL._AC_SY580_.jpg",
+      "release_date": "2010-12-17",
+      "video": "https://www.youtube.com/embed/8U0GIngVhbo",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWXvSueSoRUCBSduvkH247ne4CKN88iiL5DpvFrRtIybs-iOqRg9aOPsjnwR3xuvL7sC5kRbbto1R_wluBkY-Fsz8SXj3csqVAQ.webp?r=475",
+      "genres": [
+        "Film per Famiglie",
+        "Avventura per Famiglie",
+        "Film Fantastico"
+      ],
+      "id": 1116,
+      "original_language": "en",
+      "title": "Le 5 leggende",
+      "duration": "1h 37m",
+      "overview": "Jack Frost si unisce a Babbo Natale, alla Fata del Dentino e ad altri per combattere uno spirito maligno che vuole distruggere le innocenti credenze dei bambini.",
+      "popularity": 1980.424,
+      "poster_path": "https://mr.comingsoon.it/imgdb/locandine/big/48846.jpg",
+      "release_date": "2012-11-29",
+      "video": "https://www.youtube.com/embed/UW9UhR7fYYM",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVry-xzGqVsyk2tO_IHIiGTYnli_xxWkWSjMC2kPL3gX6dk4lwse4ORysPyKJ2i_im9lUU4_eDZpzEBe8l5nwEDEWqYUlxGRpo4.webp?r=1bb",
+      "genres": [
+        "Film di Azione",
+        "Fantascienza",
+        "Crime Action"
+      ],
+      "id": 1117,
+      "original_language": "en",
+      "title": "Blade Runner 2049",
+      "duration": "2h 43m",
+      "overview": "Il contenuto di una tomba nascosta cattura l'interesse di un gigante industriale e spinge l'agente K, blade runner del LAPD, a cercare di trovare un agente leggendario.",
+      "popularity": 2021.849,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_FMjpg_UX1000_.jpg",
+      "release_date": "2017-10-05",
+      "video": "https://www.youtube.com/embed/f2jW75Q8EaI",
+      "vote_average": 8.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcuqA2HlaElKJJD8f67rfGqROoQ9z6eT-OTwbDIY2jn4DoNIOScwgSTP4VMGh_EMuFTzEEAWnv5IFKSASfTMGoi4jeeY7n3EuHo.webp?r=9b1",
+      "genres": [
+        "Film tratti da libri",
+        "Drammi",
+        "Thriller"
+      ],
+      "id": 1119,
+      "original_language": "en",
+      "title": "American Psycho",
+      "duration": "1h 42m",
+      "overview": "Un broker, dalla bellezza statuaria che maschera la sua follia, sviluppa un orgoglio patologico per lo stile di vita yuppie e si abbandona a improvvisi impulsi omicidi.",
+      "popularity": 1986.955,
+      "poster_path": "https://m.media-amazon.com/images/I/715B-yrwXbL._SL1500_.jpg",
+      "release_date": "2001-05-25",
+      "video": "https://www.youtube.com/embed/2m8njNCQWR4",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-2582.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABScbZ_-9NUkf_gFziPr6aH2EQK5ZF4GIkzL4QjnI0LHbnsgKWcClDGHA56DQyvcU2n56E1Sq-Hz8lSUJIiY5tvG2F2qltqKtx0ysM3jVJ-YPwWDbjz9DBCX2EJZoklr906F9fccUqeYBGpYncvQQzc-wlRJdY07LlEaAAVAXGOwkeymCGcDrG1LNC_sqKEY.jpg?r=e74",
+      "genres": [
+        "Film Storici",
+        "Frilm Crime",
+        "Thriller"
+      ],
+      "id": 1171,
+      "original_language": "en",
+      "title": "I delitti di West Point",
+      "duration": "2h 08m",
+      "overview": "Un ex detective assolda un perspicace cadetto di nome Edgar Allan Poe perché lo aiuti a risolvere un macabro e misterioso caso di omicidio all'Accademia Militare degli Stati Uniti.",
+      "popularity": 1970.123,
+      "poster_path": "https://www.sentireascoltare.com/wp-content/uploads/2022/12/Pale-Blue-eye-I-delitti-di-West-Point.jpeg",
+      "release_date": "2001-05-25",
+      "video": "https://www.youtube.com/embed/n8rpUWih_SY",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-784.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdPlfwBKYWlIsIkdTw3Kq5Q4wEO01dGTFkM_AnHzv9pgprvPKwHYvH8FcR3FL1zOuituIHRt3uFdqOv1QhLZ33O7yYtRVn8dU8w.webp?r=9d1",
+      "genres": [
+        "Horror",
+        "Satira",
+        "Commedia"
+      ],
+      "id": 1121,
+      "original_language": "en",
+      "title": "Scary Movie",
+      "duration": "1h 28m",
+      "overview": "Un gruppo di adolescenti imbranati con un segreto da nascondere è perseguitato da un serial killer altrettanto maldestro in questa parodia dei film horror degli anni '90.",
+      "popularity": 1970.123,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "release_date": "2000-11-10",
+      "video": "https://www.youtube.com/embed/HTLPULt0eJ4",
+      "vote_average": 6.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-784.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfP1J6Xb3S57oP4yFzOE1VG-GVWx109hzIiu4W3ClRfMgVLxAC73_IUpPl79kcbBc-CARnYs8VwkNuBl1NjwlAO8YxiaRAa5WYaLskqJH8HRex-tGIQFtmddRrds_i9m175MsAebhl7D1rKSR_cCVnbdsX3keqyC2EA.webp?r=7ca",
+      "genres": [
+        "Italiano",
+        "Drammi a sfondo sociale",
+        "Film tratti da libri"
+      ],
+      "id": 1123,
+      "original_language": "it",
+      "title": "La Scuola Cattolica",
+      "duration": "1h 46m",
+      "overview": "Nel 1975 tre studenti di un liceo cattolico maschile di Roma commettono un delitto che sconvolge l'Italia intera. Da una storia vera.",
+      "popularity": 1860.114,
+      "poster_path": "https://pad.mymovies.it/filmclub/2020/10/084/locandina.jpg",
+      "release_date": "2000-11-10",
+      "video": "https://www.youtube.com/embed/7oGLpuOjwy4",
+      "vote_average": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-2968-784.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTAg1Jll723CyaAWOLzTEVb725ErL7gR3UCzF7k9TsoacKEbit2AjKx6-LI2yM-7_ZFOVL-x5rmFTbfMWh3kLc8ydA_5WfZuFvmaSO10gSu03ADrtCL2BHEuA7_T60RVcHtBymFg9dgu2hJk2KAcBwTFwW1h1jc_XAfZpKVfb5QqwTFrUKl_83j36HQNlJk.jpg?r=9abg",
+      "genres": [
+        "Coreano",
+        "Fantascienza",
+        "Film di Azione"
+      ],
+      "id": 1125,
+      "original_language": "kr",
+      "title": "JUNG_E",
+      "duration": "1h 39m",
+      "overview": "In un prossimo futuro postapocalittico una ricercatrice guida un progetto per mettere fine alla guerra civile clonando il cervello di un valoroso capitano dell'esercito: sua madre.",
+      "popularity": 1860.114,
+      "poster_path": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Jung_E.jpg/220px-Jung_E.jpg",
+      "release_date": "2023-01-23",
+      "video": "https://www.youtube.com/embed/X0sUyAQ2pK4",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABX4wLM8to6se_RATBRYRLFCOnSPSKU8yvmR_Kr8ZILaXjpu8sr4u_GQLlVZD4SWnDpOTTzgXuUxC_t2RLb5OFy3qzskVQaxuh8Q.webp?r=907",
+      "genres": [
+        "Drammi a sfondo sociale",
+        "Film per Famiglie",
+        "Film Storici"
+      ],
+      "id": 1175,
+      "original_language": "en",
+      "title": "Piccole Donne",
+      "duration": "2h 15m",
+      "overview": "Una scrittrice decisa a trovare la sua strada poco dopo il 1860 ripensa ai momenti difficili ma dolci passati con le sue tre vivaci sorelle e un caro amico.",
+      "popularity": 1920.444,
+      "poster_path": "https://pad.mymovies.it/filmclub/2018/12/058/locandina.jpg",
+      "release_date": "2020-01-09",
+      "video": "https://www.youtube.com/embed/W0hlCpXYW0I",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://i.ytimg.com/vi/tGpTpVyI_OQ/maxresdefault.jpg",
+      "genres": [
+        "Film Crime",
+        "Drammi",
+        "Thriller"
+      ],
+      "id": 1127,
+      "original_language": "en",
+      "title": "Pulp Fiction",
+      "duration": "2h 34m",
+      "overview": "I destini di un killer, della sua compagna e di un pugile in declino s'intrecciano in questa cruenta pellicola.",
+      "popularity": 2001.654,
+      "poster_path": "https://www.miramax.com/assets/Pulp-Fiction1.png",
+      "release_date": "1994-10-28",
+      "video": "https://www.youtube.com/embed/tGpTpVyI_OQ",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSkF-rOur_VQjrPJ6O4zuReAUxbQUli9Fwn0UDdD9ShoyQ4AMjeobM4Wkvzp0HEfcw3Aww4Q6nYZ_-jYfXbORmYDG95qr23kWb1zS6e24x9t-NzE4GgwV1zOmjQ6WeQwZfMjScu7J5d-Ev8iKdSzdxRIqM_qU0rWmck.webp?r=90e",
+      "genres": [
+        "Film basati su storie vere",
+        "Drammi a sfondo sociale",
+        "Dramma"
+      ],
+      "id": 1129,
+      "original_language": "en",
+      "title": "Coco Chanel",
+      "duration": "1h 50m",
+      "overview": "Segui l'epica ascesa della leggenda della moda Coco Chanel da orfana a sarta, fino a cantante di cabaret e infine a regina dell'haute couture parigina.",
+      "popularity": 1950.654,
+      "poster_path": "https://m.media-amazon.com/images/I/51LwYB9yVXL.jpg",
+      "release_date": "2009-05-29",
+      "video": "https://www.youtube.com/embed/BjP6jB3y1bA",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW0SWniHcfCAfgZ1qydOTtasBM4Mfs3joR6yU8HbFsXmsntm2IILLH54moUOwdPOQqITpEKPCOcYgu7u6x3GLbLY4kMSNextjaA.webp?r=29e",
+      "genres": [
+        "Film di argomento militare",
+        "Britannico",
+        "Film basati su storie vere"
+      ],
+      "id": 1131,
+      "original_language": "en",
+      "title": "Dunkirk",
+      "duration": "1h 46m",
+      "overview": "Nel maggio 1940 soldati e civili lottano per terra, per mare e nei cieli per far evacuare da Dunkirk l'esercito britannico e i suoi alleati, l'ultima speranza d'Europa.",
+      "popularity": 1992.955,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "release_date": "2009-05-29",
+      "video": "https://www.youtube.com/embed/gYQ1d3Rgo5w",
+      "vote_average": 8.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUvHUGimZ5RaZbFhiLdPiFleW2mj6DZ11kLfAjp2TMY4TuTiXjY3BVq-cAS8CImgQD6B5Aw7pPVoGl79odksYM3KKhnZf3ZWJPo.webp?r=d31",
+      "genres": [
+        "Film Fantascienza",
+        "Film di Azione",
+        "Film basati su storie vere"
+      ],
+      "id": 1133,
+      "original_language": "en",
+      "title": "Constantine",
+      "duration": "2h 01m",
+      "overview": "Un cacciatore di demoni aiuta una poliziotta a indagare sulla morte della sorella e si ritrova coinvolto in un intrigo tra le forze del paradiso e dell'inferno.",
+      "popularity": 1992.955,
+      "poster_path": "https://pad.mymovies.it/filmclub/2005/02/049/locandina.jpg",
+      "release_date": "2009-05-29",
+      "video": "https://www.youtube.com/embed/QpsQKvVPK5U",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://movieplayer.net-cdn.it/t/images/2022/12/11/john-wick-perche-saga-da-tenere-docchio_jpg_1280x720_crop_q85.jpg",
+      "genres": [
+        "Film di Azione",
+        "Crime Action",
+        "Film Crime"
+      ],
+      "id": 1135,
+      "original_language": "en",
+      "title": "John Wick",
+      "duration": "1h 41m",
+      "overview": "Quando il figlio di un gangster gli ruba l'auto e uccide il suo cane, l'impavido ex sicario John Wick si mette contro l'intera mafia per vendicarsi.",
+      "popularity": 2100.659,
+      "poster_path": "https://lionsgate.brightspotcdn.com/59/e8/576c91ae47e4aa7fd6240dc48674/john-wick-chapter-1-movies-poster-01.jpg",
+      "release_date": "2015-01-22",
+      "video": "https://www.youtube.com/embed/C0BMx-qxsP4",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbk9wzVEsMJxG8Bn69ZNtjzbN47I2bMMPYzkKliR-8LxOYeoxQyoCJb6PgqEx8CkuPDneDnQykkGNW0qLr9NQJhR2wytA7Gyc10.webp?r=d4a",
+      "genres": [
+        "Film di Azione",
+        "Crime Action",
+        "Film Crime"
+      ],
+      "id": 1137,
+      "original_language": "en",
+      "title": "Venom: Let There Be Carnage",
+      "duration": "1h 37m",
+      "overview": "Mentre Eddie Brock e Venom affrontano la loro spinosa relazione, una pericolosa minaccia emerge nei panni del serial killer Cletus Kasady e di un nuovo simbionte alieno.",
+      "popularity": 1985.391,
+      "poster_path": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/venom_onesheet_1400x2100_rated.png?itok=0tO6umMg",
+      "release_date": "2018-10-04",
+      "video": "https://www.youtube.com/embed/-FmWuCgJmxo",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABagXPDhjzgxK48kQ8NII-kfQCIgTR5asREtrGkjEXa2FKK8qO1bumHDzy1KgD3cMrOgRqX55CgPdtt-sDESmrALa_oWN_dnpcog.webp?r=1fe",
+      "genres": [
+        "Italiano",
+        "Film di argomento militare",
+        "Commedia"
+      ],
+      "id": 1139,
+      "original_language": "it",
+      "title": "La vita è bella",
+      "duration": "2h 02m",
+      "overview": "Un cameriere ebreo recluso in un campo di concentramento con la famiglia s'inventa un mondo immaginario per proteggere l'innocenza del figlio.",
+      "popularity": 2094.879,
+      "poster_path": "https://pad.mymovies.it/filmclub/2001/10/022/locandina.jpg",
+      "release_date": "1997-12-20",
+      "video": "https://www.youtube.com/embed/CGLxHxNnzAg",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://cdn.prime1studio.com/media/catalog/product/cache/1/image/1400x1400/17f82f742ffe127f42dca9de82fb58b1/h/d/hdmmdc-02_a19.jpg",
+      "genres": [
+        "Film di Azione",
+        "Crime Action",
+        "Thriller"
+      ],
+      "id": 1141,
+      "original_language": "en",
+      "title": "Il Cavaliere Oscuro",
+      "duration": "2h 32m",
+      "overview": "Batman, il tenente Gordon e il procuratore distrettuale Harvey Dent si scontrano con Joker: un folle genio del crimine dall'aspetto mostruoso che terrorizza Gotham City.",
+      "popularity": 2249.159,
+      "poster_path": "https://m.media-amazon.com/images/I/91KkWf50SoL._SL1500_.jpg",
+      "release_date": "2008-08-23",
+      "video": "https://www.youtube.com/embed/yqcDBdk8wpo",
+      "vote_average": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY7DackpCyZhOPNmB3EJ-D2ttoTGY59bQiDUmqohyk2GGXVAGzfaMn_zcVmqQQtBAY5H6ZNApKK6ca_HI-Vor1GC7KsvIvi69X0.webp?r=f12",
+      "genres": [
+        "Drammi",
+        "Drammi Premiati",
+        "Thriller"
+      ],
+      "id": 1183,
+      "original_language": "en",
+      "title": "Taxi Driver",
+      "duration": "1h 54m",
+      "overview": "Infuriato per la corruzione morale e il decadimento urbano di New York, un tassista squilibrato impazzisce, trama un omicidio e salva una giovane prostituta.",
+      "popularity": 2165.948,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "release_date": "1976-08-27",
+      "video": "https://www.youtube.com/embed/d07aBOLvmuI",
+      "vote_average": 8.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfXgpsWxdQnRRRmkjnhQTpfOZdXNtdwd3uCIzJv9JwId2bNxQvbnK0rQq0D3xwgPFAofvfhjF3xMzlqALA3S0rabm3QTV4f6ixI.webp?r=2a8",
+      "genres": [
+        "Drammi",
+        "Film Tratti da libri",
+        "Film basati su storie vere"
+      ],
+      "id": 1143,
+      "original_language": "en",
+      "title": "The Imitation Game",
+      "duration": "1h 54m",
+      "overview": "Durante la Seconda guerra mondiale, un matematico guida un gruppo di crittoanalisti incaricati di decifrare il famoso codice tedesco Enigma.",
+      "popularity": 1986.489,
+      "poster_path": "https://flxt.tmsimg.com/assets/p10771057_p_v12_av.jpg",
+      "release_date": "1976-08-27",
+      "video": "https://www.youtube.com/embed/i0JY79_Kiww",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://www.justnerd.it/wp-content/uploads/2020/06/V-per-vendetta.jpg",
+      "genres": [
+        "Film di Azione",
+        "Film di Fantascienza",
+        "Drammi a sfondo sociale"
+      ],
+      "id": 1145,
+      "original_language": "en",
+      "title": "V per Vendetta",
+      "duration": "2h 12m",
+      "overview": "Un giustiziere mascherato si fa chiamare 'V' e lotta contro un regime totalitario insieme a un'improbabile giovane alleata.",
+      "popularity": 1986.489,
+      "poster_path": "https://cultura.biografieonline.it/wp-content/uploads/2012/05/v-per-vendetta-coming-soon.jpg",
+      "release_date": "1976-08-27",
+      "video": "https://www.youtube.com/embed/eiovPXrs95o",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaF4TXZxzgWUtNnqjPebDedMwzOGZgxggtBtW7McKFt59HVYrPgAWheZxh3FTjsQ3_V4j8FaOtZ264B9abkexhVzHl_co0iobBc.webp?r=d65",
+      "genres": [
+        "Film di Azione",
+        "Drammi premiati",
+        "Drammi"
+      ],
+      "id": 1147,
+      "original_language": "en",
+      "title": "Il Gladiatore",
+      "duration": "2h 35m",
+      "overview": "Scelto per salire al trono alla morte dell'imperatore, un generale romano finisce condannato a morte per la sete di potere del figlio del defunto.",
+      "popularity": 1986.489,
+      "poster_path": "https://pad.mymovies.it/filmclub/2001/01/022/locandina.jpg",
+      "release_date": "2000-05-19",
+      "video": "https://www.youtube.com/embed/axcaKnZh9ZY",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbXskGc9RWpsSj7Q6Fsf3jmYkcHM1J-b7oSaVyng7_cMyVGrssM7jbQI6Q-OegP76QTA3Jye3nKTqif4otAosmX1u8BRupw-sGk.webp?r=d91",
+      "genres": [
+        "Film",
+        "Drammi premiati",
+        "Drammi"
+      ],
+      "id": 1149,
+      "original_language": "en",
+      "title": "Will Hunting",
+      "duration": "2h 06m",
+      "overview": "Un professore scopre in un portiere un genio della matematica e l'affida a uno psicologo per affrontare i demoni che ostacolano il suo successo.",
+      "popularity": 1950.149,
+      "poster_path": "https://cdn2-ttvbo.prod.facade.telstra.com.au/api/v2/img/5f8e7387e4b08e76216a6069-1627959407453?location=asset-cover-art",
+      "release_date": "1997-12-05",
+      "video": "https://www.youtube.com/embed/mjaL4-VpiaQ",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaz5ucsP0StDe7dkFDSUeGDSQAJm9MUog9Vl_WAIMMgwHO0idnd4u-57kNBlvKlCAFAiOzRpbJfEgDfQ_B-VSm03Fwrlj7dR9jw.webp?r=baa",
+      "genres": [
+        "Film",
+        "Horror",
+        "Thriller"
+      ],
+      "id": 1151,
+      "original_language": "en",
+      "title": "Split",
+      "duration": "1h 57m",
+      "overview": "Un uomo dalle molteplici identità rapisce tre ragazze, che devono riuscire a fuggire prima che la sua nuova e più pericolosa personalità prenda il sopravvento.",
+      "popularity": 1978.465,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg",
+      "release_date": "2016-09-26",
+      "video": "https://www.youtube.com/embed/qkrwiM5pyCw",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXscY8qvZowzmal0SWDRAXHfC7JfZHEp6pQ7Nj9eHkAuNxM036hGYZw9Il9WcvuzKJ-dyzHeNyY0WdXm7SoCGDThaiwlQGIRSAs.webp?r=e23",
+      "genres": [
+        "Film Storici",
+        "Dramma",
+        "Film tratti da libri"
+      ],
+      "id": 1153,
+      "original_language": "en",
+      "title": "The Great Gatsby",
+      "duration": "2h 22m",
+      "overview": "Nick Carraway conosce Jay Gatsby, il suo misterioso e ricco vicino, e assiste alla sua ossessione per un amore impossibile e al suo tragico destino.",
+      "popularity": 1946.199,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_.jpg",
+      "release_date": "2013-05-16",
+      "video": "https://www.youtube.com/embed/Ck56GzJ7d3g",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRMWH1IHpwtXgxo-GD1jz9UChZdD5aXVdqGEvtGxdAoT9vn5aYqdEWeGVNOWUX84K3I3MsTOcWXD8hGnU_riSAFa9hPOeMEsvZE.webp?r=02c",
+      "genres": [
+        "Commedia",
+        "Umorismo Nero",
+        "Drammatico"
+      ],
+      "id": 1118,
+      "original_language": "en",
+      "title": "The Wolf of Wall Street",
+      "duration": "3h",
+      "overview": "L'audace e temerario broker di Wall Street Jordan Belfort accumula una fortuna grazie al suo attegiamento spregiudicato e alle droghe, attirando l'attenzione dell'FBI.",
+      "popularity": 1998.819,
+      "poster_path": "https://musicart.xboxlive.com/7/861a2000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "release_date": "2014-01-23",
+      "video": "https://www.youtube.com/embed/hzG93_Mo-ys",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://www.moviemag.it/wp-content/uploads/2020/12/una-notte-da-leoni-copertina.jpg",
+      "genres": [
+        "Commedia",
+        "Farsa",
+        "Buddy"
+      ],
+      "id": 1120,
+      "original_language": "en",
+      "title": "Una Notte Da Leoni",
+      "duration": "1h 40m",
+      "overview": "Al loro risveglio, dopo una pazza festa di addio al celibato, tre amici si accorgono di aver perso il promesso sposo.",
+      "popularity": 1997.419,
+      "poster_path": "https://pad.mymovies.it/filmclub/2009/03/053/locandina.jpg",
+      "release_date": "2009-06-19",
+      "video": "https://www.youtube.com/embed/Y3Wv824Ndv4",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYf4GuWO1d9pPY0QndpN0AoF3NM-VaqNnjdCQP68QtCcVG8VnHP8qyH--LPgasfolm6ooN3WIaZouoM61aW0g84gS8VhafOUUAQ.webp?r=e9b",
+      "genres": [
+        "Mafia",
+        "Thriller",
+        "Drammatico"
+      ],
+      "id": 1122,
+      "original_language": "en",
+      "title": "Scarface",
+      "duration": "2h 50m",
+      "overview": "In una spietata scalata al potere sul narcotraffico di Miami, un gangster di origine cubana precipita in tossicodipendenza, psicosi e brutalità, con macabre conseguenze.",
+      "popularity": 2001.729,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "release_date": "1984-04-20",
+      "video": "https://www.youtube.com/embed/y-ilcWcZZwY",
+      "vote_average": 8.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdDNuxnNoNcow1czYgXZTVM3I7v50A4qFs-vNXej5-rWVOcbDhIqngG_Yf0kzv3_UDThUqOWPQplq1G1lAdFtmq-WX7-aK9uFLM.webp?r=a06",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Animazione"
+      ],
+      "id": 1124,
+      "original_language": "jp",
+      "title": "One Piece Gold",
+      "duration": "2h",
+      "overview": "Luffy e i suoi pirati non vedono l'ora di imbarcarsi sulla scintillante nave e gigantesco casinò Gran Tesoro, ma ben presto si trovano nei guai fino al collo.",
+      "popularity": 1987.129,
+      "poster_path": "https://www.animeclick.it/prove/img_tmp/201905/one-piece-gold-netflix.jpg",
+      "release_date": "2016-11-24",
+      "video": "https://www.youtube.com/embed/FY-ir6SPmGw",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50189BB06EC1CB05B40C324EC9AF04D2BC0A2F4CE9C74753556A0E0C4D78770D/scale?width=1200&aspectRatio=1.78&format=jpeg",
+      "genres": [
+        "Azione",
+        "Film di supereroi",
+        "Fantascienza"
+      ],
+      "id": 1126,
+      "original_language": "en",
+      "title": "Spider-Man 3",
+      "duration": "2h 19m",
+      "overview": "Peter Parker allontana le persone a lui più vicine affrontando i rivali, i malvagi e una forza misteriosa che ottenebra il suo costume da Spider-Man... e il suo umore.",
+      "popularity": 1967.667,
+      "poster_path": "https://musicart.xboxlive.com/7/56091100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "release_date": "2007-05-01",
+      "video": "https://www.youtube.com/embed/wPosLpgMtTY",
+      "vote_average": 6.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://api.superguidatv.it/v1/movies/4718/backdrops/1?width=720",
+      "genres": [
+        "Commedia",
+        "Comico",
+        "Irriverente"
+      ],
+      "id": 1128,
+      "original_language": "ita",
+      "title": "I 2 Soliti Idioti",
+      "duration": "1h 38m",
+      "overview": "Subito dopo il suo matrimonio, Gianluca scappa con il padre per sfuggire alla vedetta di un criminale russo, la cui madre è stata uccisa per errore dal neosposo.",
+      "popularity": 1916.162,
+      "poster_path": "https://1.bp.blogspot.com/-SRD9XJvGjLM/XaRx03jHREI/AAAAAAABF-c/y5uPR7uCL7UUaPE8Pj5gDXamBB1P8YRDwCLcBGAsYHQ/s1600/i-2-soliti-idioti.jpg",
+      "release_date": "2012-12-20",
+      "video": "https://www.youtube.com/embed/dKB5WqO5CG4",
+      "vote_average": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUMdaRTQrXQILsfH8q-8_2dWcqwOi4BezSNgw0MiJYzfma_i0FtsOE3rvIv1ahYF0vk5ABw6hWjuktaYrojApu2sba8OXdeGtLI.webp?r=973",
+      "genres": [
+        "Commedia",
+        "Animazione",
+        "Film per famiglie"
+      ],
+      "id": 1130,
+      "original_language": "en",
+      "title": "Shrek",
+      "duration": "1h 30m",
+      "overview": "Nel tentativo di salvare una principessa da un drago sputafuoco, il burbero orco Shrek si unisce a un improbabile compagno: un asino dalla battuta sempre pronta.",
+      "popularity": 1999.862,
+      "poster_path": "https://play-lh.googleusercontent.com/dFcvK-yoBnluINEBEoJmS8CqVXqFtzJ9XG82a8j4fv5-1Zfhi38XgTRbmUJAqqn8fQx-",
+      "release_date": "2001-06-15",
+      "video": "https://www.youtube.com/embed/czYgLYUNKGo",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc-SjKqnk9OT9R1W5pf-0q-9quKk545U87IkzfO34ZnT-TnKmQqYs8GpgANkRzoJiFiwmP2Rw1hvpI9hM7Ag1Z6ofVk0T5dpWOee0Fay8CazcGWU-r-PT6mGvixApehUp_DZ.jpg?r=f67",
+      "genres": [
+        "Cinema fantastico",
+        "Animazione",
+        "Commedia"
+      ],
+      "id": 1132,
+      "original_language": "en",
+      "title": "Slumberland Nel Mondo Dei Sogni",
+      "duration": "1h 57m",
+      "overview": "Questa incantevole epopea fantasy ambientata in un mondo in cui i sogni prendono vita è interpretata da Jason Momoa, Marlow Barkley, Chris O'Dowd, Kyle Chandler e Weruche Opia.",
+      "popularity": 2000.111,
+      "poster_path": "https://pad.mymovies.it/filmclub/2022/08/122/locandina.jpg",
+      "release_date": "2022-11-18",
+      "video": "https://www.youtube.com/embed/mpzV6bq8ALc",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://www.thebatman.com/images/share.jpg",
+      "genres": [
+        "Azione",
+        "Noir",
+        "Film di supereroi"
+      ],
+      "id": 1134,
+      "original_language": "en",
+      "title": "The Batman (2022)",
+      "duration": "2h 56m",
+      "overview": "La pellicola vede Batman, che combatte il crimine a Gotham City da due anni, alle prese con le indagini sull'Enigmista, uno psicopatico serial killer che prende di mira l'élite di Gotham.",
+      "popularity": 2002.611,
+      "poster_path": "https://pad.mymovies.it/filmclub/2016/04/093/locandinapg1.jpg",
+      "release_date": "2022-03-03",
+      "video": "https://www.youtube.com/embed/Io_d_woiis8",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://www.maridacaterini.it/wp-content/uploads/2021/01/Creed-nato-per-combattere-copertina.jpg",
+      "genres": [
+        "Azione",
+        "Sportivo",
+        "Drammatico"
+      ],
+      "id": 1136,
+      "original_language": "en",
+      "title": "Creed - Nato per combattere",
+      "duration": "2h 13m",
+      "overview": "Il film narra la storia di un ragazzo che segue le orme del suo defunto padre Apollo Creed, e trova in Rocky Balboa un mentore.",
+      "popularity": 1998.121,
+      "poster_path": "https://www.warnerbros.it/sites/default/files/Screenshot%202016-05-02%2009.55.19.png",
+      "release_date": "2016-01-14",
+      "video": "https://www.youtube.com/embed/my81HQ4UpQs",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://i.ytimg.com/vi/xi7d4PSj6gs/maxresdefault.jpg",
+      "genres": [
+        "Guerra",
+        "Romantico",
+        "Drammatico"
+      ],
+      "id": 1138,
+      "original_language": "en",
+      "title": "Braveheart - Cuore impavido",
+      "duration": "2h 50m",
+      "overview": "Braveheart narra in forma di colossal la storia, romanzata, del patriota ed eroe nazionale scozzese William Wallace.",
+      "popularity": 2102.998,
+      "poster_path": "https://cultura.biografieonline.it/wp-content/uploads/2012/09/braveheart-722x1024.jpg",
+      "release_date": "1995-12-01",
+      "video": "https://www.youtube.com/embed/MA4vrdOpeEU",
+      "vote_average": 8.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://townsquare.media/site/812/files/2017/11/eminem-8-mile1.jpg",
+      "genres": [
+        "Musica",
+        "Dramma musicale",
+        "Drammatico"
+      ],
+      "id": 1140,
+      "original_language": "en",
+      "title": "8 Mile",
+      "duration": "1h 50m",
+      "overview": "Un rapper di talento lotta per affermarsi sulla scena hip-hop di Detroit nel 1995. Eminem è il protagonista di questo acclamato film liberamente ispirato alla sua vita.",
+      "popularity": 1999.988,
+      "poster_path": "https://fr.web.img4.acsta.net/medias/nmedia/00/02/46/93/affiche.jpg",
+      "release_date": "2003-03-14",
+      "video": "https://www.youtube.com/embed/axGVrfwm9L4",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://www.blackadammovie.net/images/share.jpg",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Film di supereroi"
+      ],
+      "id": 1160,
+      "original_language": "en",
+      "title": "Black Adam",
+      "duration": "2h 05m",
+      "overview": "Quasi 5.000 anni dopo essere stato dotato dei poteri degli dei e poi imprigionato, Black Adam (Johnson) viene liberato, pronto a scatenare la sua forma di giustizia unica nel mondo.",
+      "popularity": 1908.896,
+      "poster_path": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "release_date": "2022-10-08",
+      "video": "https://www.youtube.com/embed/mkomfZHG5q4",
+      "vote_average": 6.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZNd4va-e_q6Z4fJh6QRURd0fyl0cCdk1_HNyTUpFvzh-TjYr7e3EvIfEiWFNoMcHiWaaggndklPRwqCRxRuYC_PZzQSp3PAFww.webp?r=ff3",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Dramma musicale"
+      ],
+      "id": 1200,
+      "original_language": "en",
+      "title": "Whiplash",
+      "duration": "1h 46m",
+      "overview": "Spinto dell'esigente insegnante di musica, il batterista Andrew è determinato a raggiungere il successo come musicista jazz, anche se a scapito della sua personalità.",
+      "popularity": 1928.482,
+      "poster_path": "https://flxt.tmsimg.com/assets/p10488558_p_v12_ai.jpg",
+      "release_date": "2015-02-14",
+      "video": "https://www.youtube.com/embed/bzGzdWUy7HU",
+      "vote_average": 7.5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-173-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfh32drSk3dICSUPel4Bf746s_32YnDmo8rNnrGa59wIT3AReU3fScNZ8rw2Z8TQ9jWtdROo9VWWk15H4B4hzcCVgBZWS1cI2U0.webp?r=c2c",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Drammi a sfondo sociale"
+      ],
+      "id": 1221,
+      "original_language": "en",
+      "title": "Southpaw",
+      "duration": "2h 03m",
+      "overview": "Una tragedia colpisce l'ex stella della boxe Billy Hope, obbligandolo a ripartire da zero. Ma lui avrà ancora ciò che serve per tornare a essere un campione?",
+      "popularity": 1900.482,
+      "poster_path": "https://flxt.tmsimg.com/assets/p11447189_p_v8_ad.jpg",
+      "release_date": "2015-07-20",
+      "video": "https://www.youtube.com/embed/N5lkn3FXF8E",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-13-2581.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABa5n4w74lJwiPVJFRuuUAzsytY17yP5zmLORCypnB_MCfmy1A5qtOy7tP0h8gBcWAUuK41OlNN-622jhYUqvE4OTF68kIphXc_k.webp?r=270",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Dramma"
+      ],
+      "id": 1240,
+      "original_language": "en",
+      "title": "Drive",
+      "duration": "1h 40m",
+      "overview": "Un solitario stuntman di Hollywood e autista per criminali viene incantato da una bella vicina. Poi però il marito di lei esce di prigione e...",
+      "popularity": 1900.482,
+      "poster_path": "https://m.media-amazon.com/images/I/51pc4UOfWwL.jpg",
+      "release_date": "2011-09-30",
+      "video": "https://www.youtube.com/embed/FWniGytawoQ",
+      "vote_average": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://occ-0-13-2581.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQLFOsdnTM-diXG5LRg9c8KnU8M8rHbXB5CTlqO9-FwZdt4z2oC6xsGOEsHFumf-SmklvTECnJIbF3Mgs9iZ7zgzDK7noZffZ68.webp?r=627",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Thriller"
+      ],
+      "id": 1245,
+      "original_language": "en",
+      "title": "Inception",
+      "duration": "2h 28m",
+      "overview": "Un ladro tormentato che estrae segreti dai sogni delle persone accetta come ultimo incarico una pericolosa missione per innestare un'idea nel subconscio di un soggetto.",
+      "popularity": 2000.482,
+      "poster_path": "https://m.media-amazon.com/images/I/51pc4UOfWwL.jpg",
+      "release_date": "2010-09-24",
+      "video": "https://www.youtube.com/embed/BV7z0I90MJk",
+      "vote_average": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2021/07/07/1918966851527/INST_SAlone_16_9_1920x1080_NB_731120_1920x1080.jpg",
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Thriller"
+      ],
+      "id": 1246,
+      "original_language": "en",
+      "title": "Interstellar",
+      "duration": "2h 49m",
+      "overview": "L'umanità è sull'orlo dell'estinzione e un gruppo di astronauti viaggia attraverso un wormhole alla ricerca di un altro pianeta abitabile.",
+      "popularity": 1999.482,
+      "poster_path": "https://m.media-amazon.com/images/I/A1JVqNMI7UL._SL1500_.jpg",
+      "release_date": "2014-10-26",
+      "video": "https://www.youtube.com/embed/EIVMVIr3q3Y",
+      "vote_average": 7.5
+    }
+  ],
+  "users": [
+    {
+      "email": "asd@asd.asd",
+      "password": "$2a$10$hLrQcrHMkEG3PARj6QkTvOSGpngvZi2YrFJMN8Rh2wBVNddFSW8iu",
+      "name": "asd",
+      "id": 1
+    },
+    {
+      "email": "blinki@blinki.blinki",
+      "password": "$2a$10$8/Fej9xRvdrgpk9BPoKisOQQqildfRWRjspAGZDujy/QSZgeCV5fq",
+      "name": "blinki",
+      "id": 2
+    },
+    {
+      "email": "val@er.io",
+      "password": "$2a$10$aUdnDFA1obOYzS3WmE9ivO6fX/k52lzJU.Z.DPJVsQ5r4h.kEfWlu",
+      "name": "valery",
+      "id": 3
+    },
+    {
+      "email": "dsa@dsa.dsa",
+      "password": "$2a$10$9c2o2wOhiWJDyeCaoGBw6u/XeQC6QXNXIVcSVWpkBCNyM8LpgW5k6",
+      "name": "dsa",
+      "id": 4
+    },
+    {
+      "email": "com@men.it",
+      "password": "$2a$10$TRaD0oY.CGYp9xD2EQyHF.l8iGwL9v8EyvQTvTXaY3V6i0fLfO6qK",
+      "name": "Commenti della critica",
+      "id": 5
+    },
+    {
+      "email": "marta@arta.carta",
+      "password": "$2a$10$uyVNY/W4xh.GMYYoikcEtu8A.JCEatw4DZ3f2u2xqrBM6FTz..hXK",
+      "name": "Marta",
+      "id": 6
+    },
+    {
+      "email": "gio@va.nni",
+      "password": "$2a$10$mAMtcnP2KHxc26hHNeVIUul6AjR1AgahwpYILPvRATw/X..AZf3nS",
+      "name": "Giorgio Vanni",
+      "id": 7
+    },
+    {
+      "email": "ales@san.dro",
+      "password": "$2a$10$b4SJGmXRzxkDWBytCoCoFuVB4hW.UVXXOp.Iwd6KgP98A/qpgHzqC",
+      "name": "Alessandro Insinna",
+      "id": 8
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1674739882234,
+      "author": "asd",
+      "text_body": "asd",
+      "title": "asd",
+      "rating": 1,
+      "account_id": 1,
+      "film_id": 1113
+    },
+    {
+      "id": 1674741421015,
+      "author": "asd",
+      "text_body": "asd",
+      "title": "asd",
+      "rating": 2.5,
+      "account_id": 1,
+      "film_id": 1111
+    },
+    {
+      "id": 1674741503518,
+      "author": "asd",
+      "text_body": "asd",
+      "title": "asd",
+      "rating": 1,
+      "account_id": 1,
+      "film_id": 1112
+    },
+    {
+      "id": 1674741523052,
+      "author": "dsa",
+      "text_body": "saccsa",
+      "title": "caas",
+      "rating": 1,
+      "account_id": 4,
+      "film_id": 1112
+    },
+    {
+      "id": 1674751709377,
+      "author": "Alessandro Insinna",
+      "text_body": "!",
+      "title": "Mom's spaghetti",
+      "rating": 10,
+      "account_id": 8,
+      "film_id": 1140
+    },
+    {
+      "id": 1674752229749,
+      "author": "asd",
+      "text_body": "fantastico",
+      "title": "Più bello dell'originale!!!!!!!",
+      "rating": 8.5,
+      "account_id": 1,
+      "film_id": 1117
+    },
+    {
+      "id": 1674813627409,
+      "author": "asd",
+      "text_body": "asd",
+      "title": "asd22",
+      "rating": 1,
+      "account_id": 1,
+      "film_id": 1160
+    }
+  ]
+}
