@@ -1,0 +1,21 @@
+Libro [codiceISBN=0000, titolo=Harry Potter1, annoPubblicazione=1990-09-11, nPagine=300 autore=J.K. Rowling, genere=FANTASIA]
+Libro [codiceISBN=0001, titolo=Harry Potter4, annoPubblicazione=2000-04-18, nPagine=350 autore=J.K. Rowling, genere=FANTASIA]
+Libro [codiceISBN=0002, titolo=Grande Gatsby, annoPubblicazione=1925-04-10, nPagine=250 autore=Fitzgerald, genere=DRAMMATICO]
+Libro [codiceISBN=0004, titolo=Moby Dick, annoPubblicazione=1910-08-11, nPagine=350 autore=Herman Melville, genere=THRILLER]
+Libro [codiceISBN=0005, titolo=Arancia meccanica, annoPubblicazione=1973-04-23, nPagine=375 autore= Anthony Burgess, genere=HORROR]
+Libro [codiceISBN=0006, titolo=It , annoPubblicazione=1959-07-25, nPagine=220 autore=Stephen King, genere=HORROR]
+Libro [codiceISBN=0007, titolo=Frankenstein , annoPubblicazione=1487-06-05, nPagine=520 autore=Primo Levi, genere=FANTASIA]
+Libro [codiceISBN=0008, titolo=Il Signore degli Anelli, annoPubblicazione=1980-02-17, nPagine=400 autore=Tolkien, genere=FANTASIA]
+Libro [codiceISBN=0009, titolo=La fabbrica di cioccolato, annoPubblicazione=1931-05-01, nPagine=100 autore=Roald Dahl, genere=UMORISTICO]
+Rivista [codiceISBN=00010, titolo=Il Giornale, annoPubblicazione=2022-02-07, nPagine=40periodicita=MENSILE]
+Rivista [codiceISBN=00011, titolo=Il Tempo, annoPubblicazione=2021-05-19, nPagine=45periodicita=SEMESTRALE]
+Rivista [codiceISBN=00012, titolo=Motori, annoPubblicazione=2019-01-20, nPagine=25periodicita=MENSILE]
+Rivista [codiceISBN=00013, titolo=Cose Da Donne, annoPubblicazione=2015-11-29, nPagine=1125periodicita=SETTIMANALE]
+Rivista [codiceISBN=00014, titolo=CALCIO!, annoPubblicazione=2016-01-01, nPagine=254periodicita=SETTIMANALE]
+Cercato con il codice ISBN
+Libro [codiceISBN=0003, titolo=Se questo è un uomo, annoPubblicazione=1947-01-15, nPagine=150 autore=Primo Levi, genere=DRAMMATICO]
+Cercato con l'anno
+Libro [codiceISBN=0008, titolo=Il Signore degli Anelli, annoPubblicazione=1980-02-17, nPagine=400 autore=Tolkien, genere=FANTASIA]
+Cercato con l'autore
+Libro [codiceISBN=0000, titolo=Harry Potter1, annoPubblicazione=1990-09-11, nPagine=300 autore=J.K. Rowling, genere=FANTASIA]
+Libro [codiceISBN=0001, titolo=Harry Potter4, annoPubblicazione=2000-04-18, nPagine=350 autore=J.K. Rowling, genere=FANTASIA]
