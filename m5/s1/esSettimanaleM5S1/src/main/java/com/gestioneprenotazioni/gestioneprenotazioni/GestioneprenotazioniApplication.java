@@ -1,13 +1,13 @@
-package com.esSettimanale;
+package com.gestioneprenotazioni.gestioneprenotazioni;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EsSettimanaleApplication {
+public class GestioneprenotazioniApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EsSettimanaleApplication.class, args);
+		SpringApplication.run(GestioneprenotazioniApplication.class, args);
 	}
 
 }
